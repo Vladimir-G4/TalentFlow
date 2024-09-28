@@ -1,63 +1,52 @@
 {
-    "public_identifier": "brianzou03",
-    "profile_pic_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/person/brianzou03/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240928%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240928T195605Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=0f67e8d9e9970869b91156f61b317bbf2f09f4806b86cae738940c01b65d8d72",
-    "background_cover_image_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/person/brianzou03/cover?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240928%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240928T195605Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=b1861d832a7764250b949e321dc983f323582a2bb761559e59ad1f6b6ece99d1",
-    "first_name": "Brian",
-    "last_name": "Zou",
-    "full_name": "Brian Zou",
-    "follower_count": 1100,
-    "occupation": "Co-Founder at Stealth Startup",
-    "headline": "Social Entrepreneurship meets Technology",
-    "summary": "Hi! I\u2019m Brian Zou, a Computer Science student at NYU (Class of '25) and a software engineer with experience developing software in everything from startups to Fortune 500 firms.\n\nThroughout the majority of my Computer Science journey, I thought I was going to be a software engineer at a big tech company. However, through my various ventures in leadership and management, I have come to learn how positive leadership and management can be the key to successful initiatives. \n\nI have been fortunate enough to serve as the Chief Technology Officer at two individual startups, a software engineer intern at a Fortune 500 financial firm, President of a non-profit organization, and a Director in the NYU Commuter Student Council. \n\nI am an advocate for positive social and societal change through technology. I hope to combine my technical background, leadership experience, and interest in social entrepreneurship to bring about the latest exciting headlines in social impact!\n\nIn the future, I plan to spearhead social entrepreneurship initiatives and non-profit initiatives to bring about positive social change in topics like human rights, sustainable energy, and other important fields.\n\nI'm always open to connecting with new people, you can reach me at brianzou03@gmail.com!",
+    "public_identifier": "vladimir-gutierrez",
+    "profile_pic_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/person/vladimir-gutierrez/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240928%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240928T200105Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=c9abd5ed32c66de6f7f6e98fa746cc08689987d010cb20c93132ceb51e35acbd",
+    "background_cover_image_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/person/vladimir-gutierrez/cover?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240928%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240928T200105Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=44fe00b6295a0ae71f59adc90023552e3ae7b025b096b12ee270819553c2c8b3",
+    "first_name": "Vladimir",
+    "last_name": "G.",
+    "full_name": "Vladimir G.",
+    "follower_count": 1309,
+    "occupation": "System Engineer Intern at Vestmark",
+    "headline": "System Engineer Intern @ Vestmark | CS @ NJIT | Prev. Disney, PwC, Prudential, Fidelity | ColorStack | CodePath",
+    "summary": "Hi! I am currently pursuing a Bachelor's in Computer Science at the New Jersey Institute of Technology.\n\nI bring experience in Python, Java, Bash, SQL, HTML/CSS, TypeScript, and various front-end technologies (Angular and React).\n\nMy interests span from Web/App Development to Cybersecurity and Web3. I'm passionate about exploring the forefront of technology and contributing to projects that help people.\n\nMy portfolio site can be found at https://vladimirgutierrez.dev",
     "country": "US",
     "country_full_name": "United States",
-    "city": "New York",
-    "state": "New York",
+    "city": "New York City Metropolitan Area",
+    "state": null,
     "experiences": [
+        {
+            "starts_at": {
+                "day": 1,
+                "month": 9,
+                "year": 2024
+            },
+            "ends_at": null,
+            "company": "Vestmark",
+            "company_linkedin_profile_url": "https://www.linkedin.com/company/vestmark",
+            "company_facebook_profile_url": null,
+            "title": "System Engineer Intern",
+            "description": "Client Modernization Engineering Team",
+            "location": "Wakefield, Massachusetts, United States",
+            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/vestmark/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240928%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240928T200109Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=b977a7e3eb2adba362b62d2482ab2d97eb9f819bbafbd7e8227b0cdf8f1e0d26"
+        },
         {
             "starts_at": {
                 "day": 1,
                 "month": 6,
                 "year": 2024
             },
-            "ends_at": null,
-            "company": "Stealth Startup",
-            "company_linkedin_profile_url": "https://www.linkedin.com/company/stealth-startup-51",
-            "company_facebook_profile_url": null,
-            "title": "Co-Founder",
-            "description": "Building with support from:\n\u2022 PropelAuth Starting Line\n\u2022 Headstarter AI\n\u2022 Google for Startups Cloud program",
-            "location": null,
-            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/stealth-startup-51/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240928%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240928T195605Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=4c815b583ac9e0d9e40fb990091b525afaf2a7edf632ff8ec62d191e1a3fb0eb"
-        },
-        {
-            "starts_at": {
-                "day": 1,
-                "month": 12,
-                "year": 2023
+            "ends_at": {
+                "day": 31,
+                "month": 8,
+                "year": 2024
             },
-            "ends_at": null,
-            "company": "BobaTalks",
-            "company_linkedin_profile_url": "https://www.linkedin.com/company/bobatalks",
+            "company": "Prudential Financial",
+            "company_linkedin_profile_url": "https://www.linkedin.com/company/prudential-financial",
             "company_facebook_profile_url": null,
-            "title": "Mentor",
-            "description": "\u2022 Mentored high school students on the college admissions process and tech internship applications\n\u2022 Reviewed resumes and provided resources to students on their application journey",
-            "location": null,
-            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/bobatalks/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240928%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240928T195605Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=6b63a2d30fddf2a362ccb3b22ec08cadd971659e20c4f0cbb5bd4d68ff59b32f"
-        },
-        {
-            "starts_at": {
-                "day": 1,
-                "month": 10,
-                "year": 2023
-            },
-            "ends_at": null,
-            "company": "New York University",
-            "company_linkedin_profile_url": "https://www.linkedin.com/company/new-york-university",
-            "company_facebook_profile_url": null,
-            "title": "Director of Programming at the NYU Commuter Student Council",
-            "description": "\u2022 Lead and hosted various events, including sessions on transportation, public safety, and childcare.\n\u2022 Coordinated with Tandon Director of Programming and Director of Finance to create events.",
-            "location": "New York, United States",
-            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/new-york-university/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240928%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240928T195605Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=b7b085993c4c05d4c9764ffa7244864dfeb6779c545de5b39d9aa802a74b28aa"
+            "title": "Software Engineer Intern",
+            "description": "Global Cloud Security Team",
+            "location": "Newark, New Jersey, United States",
+            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/prudential-financial/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240928%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240928T200109Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=e48a26cafbc55e4b7cd300972a2622f4a40b565af73c3f2a35e67d8d99461f94"
         },
         {
             "starts_at": {
@@ -65,127 +54,114 @@
                 "month": 1,
                 "year": 2024
             },
-            "ends_at": null,
-            "company": "STEMPOWERed",
-            "company_linkedin_profile_url": "https://www.linkedin.com/company/stempowered",
-            "company_facebook_profile_url": null,
-            "title": "Board Member",
-            "description": "\u2022 Managed development operations, providing resources and frameworks for projects and events\n\u2022 Strategized planning for organization initiative, such as tutoring via SchoolHouse",
-            "location": null,
-            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/stempowered/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240928%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240928T195605Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=6b6f55f1c4109f869029c75b27dea88d4f1afaa25868a74b92e967f949f49115"
-        },
-        {
-            "starts_at": {
-                "day": 1,
-                "month": 10,
-                "year": 2023
-            },
-            "ends_at": null,
-            "company": "4Human Corporation",
-            "company_linkedin_profile_url": "https://www.linkedin.com/company/99542670/",
-            "company_facebook_profile_url": null,
-            "title": "President",
-            "description": "\u2022 Served as the President of the 501(c)(3) non-profit, overseeing all operations including HR, Technology, Finances, and more.\n\u2022 Led a team of 60+ members in development operations, structuring organization, and outreach.",
-            "location": "New York, NY",
-            "logo_url": "https://media.licdn.com/dms/image/v2/D4E0BAQFx3j7LZhK5Ug/company-logo_400_400/company-logo_400_400/0/1699146633275/4human_org_logo?e=1735776000&v=beta&t=MiIo89BR3Zx0CnZdp0Dm0VKp0XcJN7tRx6jj9_W7ukU"
-        },
-        {
-            "starts_at": {
-                "day": 1,
+            "ends_at": {
+                "day": 30,
                 "month": 6,
                 "year": 2024
             },
-            "ends_at": {
-                "day": 31,
-                "month": 8,
-                "year": 2024
-            },
-            "company": "Prudential Financial",
-            "company_linkedin_profile_url": "https://www.linkedin.com/company/prudential-financial",
+            "company": "The Walt Disney Company",
+            "company_linkedin_profile_url": "https://www.linkedin.com/company/the-walt-disney-company",
             "company_facebook_profile_url": null,
-            "title": "Software Engineer Intern",
-            "description": "\u2022 DevOps\n\u2022 Java Spring Boot\n\u2022 Identity Access Management\n\u2022 Notification API\n\u2022 Email template engine\n\u2022 Secrets management / HashiCorp vault",
-            "location": "Newark, New Jersey, United States",
-            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/prudential-financial/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240928%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240928T195605Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=eede9085464e43fa655a5a3aaa9b70018273d6a2b19c87386e8b0f37dd97c9bb"
+            "title": "Web Development & Integration Intern",
+            "description": "Labor Systems Team",
+            "location": "Orlando, Florida, United States",
+            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/the-walt-disney-company/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240928%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240928T200109Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=7bacaf9e5899c2aaede5fa120950bda11210e111c2cc611a277e347caf6b8d16"
         },
         {
             "starts_at": {
                 "day": 1,
-                "month": 4,
-                "year": 2023
-            },
-            "ends_at": {
-                "day": 30,
                 "month": 9,
                 "year": 2023
             },
-            "company": "Wyzant",
-            "company_linkedin_profile_url": "https://www.linkedin.com/company/wyzant-tutoring",
-            "company_facebook_profile_url": null,
-            "title": "Private Tutor",
-            "description": "\u2022 Delivered computer science sessions to students resulting in positive grade improvements\n\u2022 Helped students develop strong technical problem solving and critical thinking skills",
-            "location": "New York, NY",
-            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/wyzant-tutoring/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240928%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240928T195605Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=b5cbd9375efa1b14caa7704d76f7862e51ffda52b8b9aaa65426171210844ce3"
-        },
-        {
-            "starts_at": {
-                "day": 1,
-                "month": 6,
-                "year": 2023
-            },
             "ends_at": {
                 "day": 31,
-                "month": 8,
+                "month": 12,
                 "year": 2023
             },
             "company": "Prudential Financial",
             "company_linkedin_profile_url": "https://www.linkedin.com/company/prudential-financial",
             "company_facebook_profile_url": null,
-            "title": "Software Engineer Intern",
-            "description": "\u2022 Developed and deployed a payload service, boosting team efficiency by 150%\n\u2022 Automated access to S3 buckets and interface to modify data payloads",
+            "title": "Software Engineer Co-op",
+            "description": "Global Cloud Security Team",
             "location": "Newark, New Jersey, United States",
-            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/prudential-financial/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240928%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240928T195605Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=eede9085464e43fa655a5a3aaa9b70018273d6a2b19c87386e8b0f37dd97c9bb"
+            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/prudential-financial/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240928%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240928T200109Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=e48a26cafbc55e4b7cd300972a2622f4a40b565af73c3f2a35e67d8d99461f94"
         },
         {
             "starts_at": {
                 "day": 1,
-                "month": 3,
-                "year": 2023
+                "month": 1,
+                "year": 2022
             },
             "ends_at": {
-                "day": 31,
-                "month": 5,
-                "year": 2023
+                "day": 30,
+                "month": 4,
+                "year": 2022
             },
-            "company": "CoArt.tech",
-            "company_linkedin_profile_url": "https://www.linkedin.com/company/98518508/",
+            "company": "PwC",
+            "company_linkedin_profile_url": "https://www.linkedin.com/company/pwc",
             "company_facebook_profile_url": null,
-            "title": "Chief Technology Officer",
-            "description": "\u2022 Prototyped the stable diffusion based art distribution platform\n\u2022 Developed framework for platform, featuring demo art generation and upload/download from database\n\u2022 Participated in the NYU Startup Bootcamp",
-            "location": "New York, NY",
-            "logo_url": "https://media.licdn.com/dms/image/v2/D4E0BAQEgcUXuNgwAdg/company-logo_400_400/company-logo_400_400/0/1692202843366?e=1735776000&v=beta&t=o9w4ZsNL6nuwgSKSiMWJZeXH5hlMkNAFEakOVpo0GUI"
+            "title": "Technology Consultant Co-op",
+            "description": "AWS Cloud & Digital Practice",
+            "location": "New York, New York, United States",
+            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/pwc/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240928%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240928T200109Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=91127b3d9c48e382306ec43edf289bfea59ef92676d84a77e6484d1d5b616aed"
         },
         {
             "starts_at": {
                 "day": 1,
-                "month": 5,
-                "year": 2022
+                "month": 6,
+                "year": 2021
             },
             "ends_at": {
                 "day": 31,
                 "month": 8,
-                "year": 2022
+                "year": 2021
             },
-            "company": "AiTudier",
-            "company_linkedin_profile_url": "https://www.linkedin.com/company/aitudier",
+            "company": "Fidelity Investments",
+            "company_linkedin_profile_url": "https://www.linkedin.com/company/fidelity-investments",
             "company_facebook_profile_url": null,
-            "title": "Chief Technology Officer",
-            "description": "[Acquired]\n\u2022 Hired and led a team of 20 software engineer interns in developing a LMS platform\n\u2022 Developed and deployed functional LMS platform to AWS, successfully meeting client deadlines",
-            "location": "remote",
-            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/aitudier/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240928%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240928T195605Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=246fa177af2944537dc4c37f870ec6144b61d0d241f91ebc7449ff4088122997"
-        }
-    ],
-    "education": [
+            "title": "Full Stack Engineer Intern",
+            "description": "Customer Protection Team",
+            "location": "Smithfield, Rhode Island, United States",
+            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/fidelity-investments/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240928%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240928T200109Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=ab88f890e1fc86a8b0a9b4b0ca04ff9bf1d72348ff9f71b9fe25833fa22f9715"
+        },
+        {
+            "starts_at": {
+                "day": 1,
+                "month": 2,
+                "year": 2020
+            },
+            "ends_at": {
+                "day": 31,
+                "month": 7,
+                "year": 2021
+            },
+            "company": "Management Leadership for Tomorrow",
+            "company_linkedin_profile_url": "https://www.linkedin.com/company/management-leadership-for-tomorrow",
+            "company_facebook_profile_url": null,
+            "title": "MLT Career Prep Fellow ",
+            "description": null,
+            "location": null,
+            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/management-leadership-for-tomorrow/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240928%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240928T200109Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=d50e8b0036e530ad407aa8ff651c8a67b66d49f7eae05c69540b9361deb83393"
+        },
+        {
+            "starts_at": {
+                "day": 1,
+                "month": 12,
+                "year": 2020
+            },
+            "ends_at": {
+                "day": 31,
+                "month": 5,
+                "year": 2021
+            },
+            "company": "Selective Insurance",
+            "company_linkedin_profile_url": "https://www.linkedin.com/company/selective-insurance",
+            "company_facebook_profile_url": null,
+            "title": "Data Governance Analyst Co-op",
+            "description": "Data Governance Team",
+            "location": "Branchville, New Jersey, United States",
+            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/selective-insurance/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240928%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240928T200109Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=7bf8796fd682da617d509f98476f96f292acd7f460050fd26ee01af1d2012131"
+        },
         {
             "starts_at": {
                 "day": 1,
@@ -193,19 +169,45 @@
                 "year": 2021
             },
             "ends_at": {
-                "day": 31,
-                "month": 12,
-                "year": 2025
+                "day": 30,
+                "month": 4,
+                "year": 2021
             },
+            "company": "ColorStack",
+            "company_linkedin_profile_url": "https://www.linkedin.com/company/colorstack",
+            "company_facebook_profile_url": null,
+            "title": "ColorStack Sprout Fellowship",
+            "description": null,
+            "location": null,
+            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/colorstack/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240928%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240928T200109Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=857ae3dd4abeb637849d8a9881c7befca4c637a51f883d712f6f34dca44680aa"
+        }
+    ],
+    "education": [
+        {
+            "starts_at": null,
+            "ends_at": null,
             "field_of_study": "Computer Science",
-            "degree_name": "Bachelor of Arts - BA",
-            "school": "New York University",
-            "school_linkedin_profile_url": "https://www.linkedin.com/company/new-york-university",
+            "degree_name": "Bachelor's degree",
+            "school": "New Jersey Institute of Technology",
+            "school_linkedin_profile_url": "https://www.linkedin.com/company/165198/",
             "school_facebook_profile_url": null,
-            "description": "Minor: Creative Writing\nHonors: Dean's list 2021-2022, 2022-2023",
-            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/new-york-university/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240928%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240928T195605Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=b7b085993c4c05d4c9764ffa7244864dfeb6779c545de5b39d9aa802a74b28aa",
-            "grade": "3.83/4.0",
-            "activities_and_societies": "\u2022 NYU Commuter Student Council (Director of Programming)\n\u2022 NYU Student Government Assembly (Sustainability, Student Technology, and Operations committees)\n\u2022 CAB25\n\u2022 Tech@NYU\n\u2022 BUGS Open Source\n\u2022 Data Science Club\n\u2022 HackNYU (2022)"
+            "description": null,
+            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/njit/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240928%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240928T200111Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=7707096ee04efe5819957646f30dd35b63c93213cce3ddea77cfb1008bdb0b13",
+            "grade": null,
+            "activities_and_societies": null
+        },
+        {
+            "starts_at": null,
+            "ends_at": null,
+            "field_of_study": null,
+            "degree_name": "High School Diploma",
+            "school": "Ridgefield Memorial High School",
+            "school_linkedin_profile_url": null,
+            "school_facebook_profile_url": null,
+            "description": null,
+            "logo_url": null,
+            "grade": null,
+            "activities_and_societies": null
         }
     ],
     "languages": [],
@@ -214,70 +216,58 @@
         {
             "starts_at": {
                 "day": 1,
-                "month": 9,
+                "month": 7,
                 "year": 2024
             },
             "ends_at": null,
-            "org_name": "NYU Student Government Assembly",
-            "title": "Sustainability Committee",
-            "description": "Worked with committee to develop sustainable initiatives on campus"
-        },
-        {
-            "starts_at": {
-                "day": 1,
-                "month": 9,
-                "year": 2024
-            },
-            "ends_at": null,
-            "org_name": "NYU Student Government Assembly",
-            "title": "Student Technology Committee",
-            "description": null
+            "org_name": "Headstarter",
+            "title": "Software Engineering Fellow",
+            "description": "Headstarter is building the #1 community for emerging software engineers. In an era where learning is being commoditized, we want to bring community and real human feedback to future tech leaders of the world.\n\nhttps://headstarter.co/"
         },
         {
             "starts_at": {
                 "day": 1,
                 "month": 10,
-                "year": 2023
+                "year": 2021
             },
             "ends_at": null,
-            "org_name": "NYU Commuter Student Council",
-            "title": "Director of Programming",
-            "description": "\u2022 Lead and hosted various events, including sessions on transportation, public safety, and childcare.\n\u2022 Coordinated with Tandon Director of Programming and Director of Finance to create events."
-        }
-    ],
-    "accomplishment_publications": [],
-    "accomplishment_honors_awards": [
+            "org_name": "Phi Sigma Kappa Fraternity",
+            "title": "Brotherhood Chair Fall '23 | Social Chair Spring '23 | Philanthropy Chair Fall '22",
+            "description": "\u2022 Raised over $2,000 through diverse philanthropic campus-wide events and tablings\n\u2022 Achieved over 200 hours of volunteering through collaboration with local non-profits and parks"
+        },
         {
-            "title": "Dean\u2019s List",
-            "issuer": null,
-            "issued_on": {
+            "starts_at": {
                 "day": 1,
+                "month": 11,
+                "year": 2020
+            },
+            "ends_at": {
+                "day": 31,
+                "month": 8,
+                "year": 2022
+            },
+            "org_name": "Science & Politics Society",
+            "title": "President",
+            "description": "https://NJIT.gg/scipolweb\nWe aim to promote political engagement among students in STEM\n\n\u2022 Grew club from 4 initial members to 40+ students appearing for weekly discussions and guest speaker events\n\u2022 Collaborated with the club\u2019s Executive Board to manage the club\u2019s social media presence, while also coordinating events and engaging with politicians and scientists to promote student involvement in local government"
+        },
+        {
+            "starts_at": {
+                "day": 1,
+                "month": 9,
+                "year": 2020
+            },
+            "ends_at": {
+                "day": 31,
                 "month": 12,
                 "year": 2021
             },
-            "description": "Award for academic performance. Received in 2021-2022, 2022-2023."
-        },
-        {
-            "title": "SPPOA Scholarship Recipient",
-            "issuer": "South Pasadena Police Officers' Association",
-            "issued_on": {
-                "day": 1,
-                "month": 6,
-                "year": 2021
-            },
-            "description": "Merit based scholarship given to one recipient a year for outstanding academic and extracurricular performance."
-        },
-        {
-            "title": "National Merit Commended Scholar",
-            "issuer": "College Board",
-            "issued_on": {
-                "day": 1,
-                "month": 7,
-                "year": 2020
-            },
-            "description": "The National Merit Commended Scholar award is granted to those who score in the top 1-2% of PSAT scores for 2020."
+            "org_name": "NJIT Robotics",
+            "title": "Vex U | Finance & Logistics | Public Relations | Constitution Committees",
+            "description": "\u25aa Program with Pros, the C/C++ environment used for Vex robots\n\u25aa Design club website @ RoboticsClub.njit.edu\n\u25aa Reach out to companies to attract sponsors\n\u25aa Set budget proposals"
         }
     ],
+    "accomplishment_publications": [],
+    "accomplishment_honors_awards": [],
     "accomplishment_patents": [],
     "accomplishment_courses": [],
     "accomplishment_projects": [
@@ -292,73 +282,10 @@
                 "month": 6,
                 "year": 2024
             },
-            "title": "PruSERV the Environment",
-            "description": "Prudential Intern Hackathon 2024 - Team Prufessionals\nSustainable investment platform - tracks eco-friendliness of stocks and suggests alternative stocks based on carbon emissions metrics",
+            "title": "EcoEquity",
+            "description": "Won second place at the 2024 Prudential Summer Intern Hackathon with a gamified platform to educate users on investing with sustainability in mind. ",
             "url": null
         },
-        {
-            "starts_at": {
-                "day": 1,
-                "month": 9,
-                "year": 2023
-            },
-            "ends_at": {
-                "day": 30,
-                "month": 11,
-                "year": 2023
-            },
-            "title": "IAG x Morgan Stanley Stock Pitch Competition",
-            "description": "\u2022 Performed extensive industry research via Bloomberg terminal for stock selection strategy\n\u2022 Ran Monte Carlo simulations to model lithium price projections\n\u2022 Used DCF and analysis of comparable companies to forecast ALB valuations\n\u2022 Created a comprehensive pitch deck that detailed the business and industry analysis alongside three investment theses",
-            "url": null
-        },
-        {
-            "starts_at": {
-                "day": 1,
-                "month": 7,
-                "year": 2022
-            },
-            "ends_at": {
-                "day": 31,
-                "month": 8,
-                "year": 2022
-            },
-            "title": "DNA Sequencing",
-            "description": "\u2022 Developed a Python DNA Sequencer that classifies species given a DNA sequence.\n\u2022 Sequencer encodes DNA strands, then feeds k-mer to the sklearn model to resolve gaps within DNA.\n\u2022 Integrated a separate DNA classifier model based on the Multinomial Naives Baives model.",
-            "url": "https://github.com/brianzou03/DNA-sequencing"
-        },
-        {
-            "starts_at": {
-                "day": 1,
-                "month": 6,
-                "year": 2022
-            },
-            "ends_at": {
-                "day": 31,
-                "month": 7,
-                "year": 2022
-            },
-            "title": "Plotly Dashboard",
-            "description": "\u2022 Created an interactive dashboard using Plotly Dash, Flask framework, and data from MySQL.\n\u2022 Application takes data from MySQL table and writes to CSV file, which are then processed by Dash.",
-            "url": "https://github.com/brianzou03/plotlyDashboard"
-        },
-        {
-            "starts_at": {
-                "day": 1,
-                "month": 8,
-                "year": 2021
-            },
-            "ends_at": {
-                "day": 31,
-                "month": 8,
-                "year": 2021
-            },
-            "title": "Selenium Web Scraper",
-            "description": "\u2022 Constructed a Python Selenium web scraper to gather data from the clothing website Pacsun.com. \n\u2022 The user is able to view the product information via a query to the API, hosted on PostGreSQL.",
-            "url": "https://github.com/brianzou03/seleniumWebScraper"
-        }
-    ],
-    "accomplishment_test_scores": [],
-    "volunteer_work": [
         {
             "starts_at": {
                 "day": 1,
@@ -366,212 +293,265 @@
                 "year": 2023
             },
             "ends_at": {
-                "day": 30,
-                "month": 6,
-                "year": 2024
+                "day": 31,
+                "month": 10,
+                "year": 2023
             },
-            "title": "Founder, President",
-            "cause": "Human Rights",
-            "company": "4Human Corporation",
-            "company_linkedin_profile_url": "https://www.linkedin.com/company/99542670/",
-            "description": "\u2022 Served as the President of the 501(c)(3) non-profit, overseeing all operations including HR, Technology, Finances, and more.\n\u2022 Led a team of 60+ members in project development, organization structuring, and hiring volunteers.\n\u2022 Expanded LinkedIn outreach to reach more than 1000+ page followers.",
-            "logo_url": "https://media.licdn.com/dms/image/v2/D4E0BAQFx3j7LZhK5Ug/company-logo_400_400/company-logo_400_400/0/1699146633275/4human_org_logo?e=1735776000&v=beta&t=MiIo89BR3Zx0CnZdp0Dm0VKp0XcJN7tRx6jj9_W7ukU"
+            "title": "NJIT Bytes",
+            "description": "A Dining Companion Progressive-Web-App that serves a live daily menu of NJIT\u2019s dining hall as well as the ability to have meals recommended to you based on your health data and dietary goals/restrictions. ",
+            "url": null
         },
         {
             "starts_at": {
                 "day": 1,
-                "month": 12,
-                "year": 2023
+                "month": 2,
+                "year": 2021
             },
             "ends_at": {
                 "day": 31,
-                "month": 12,
-                "year": 2023
+                "month": 3,
+                "year": 2021
             },
-            "title": "Mentor",
-            "cause": "Education",
-            "company": "BobaTalks",
-            "company_linkedin_profile_url": "https://www.linkedin.com/company/82319390/",
-            "description": "\u2022 Mentored high school students on the college admissions process and tech internship applications\n\u2022 Reviewed resumes and provided resources to students on their application journey",
-            "logo_url": "https://media.licdn.com/dms/image/v2/D560BAQE7coTODFuK1w/company-logo_400_400/company-logo_400_400/0/1680480859636/bobatalks_logo?e=1735776000&v=beta&t=q1MCKDWo-GVC6i-n4RJpHvbGYuF6S0f0ZrRl8d9i-cA"
-        },
-        {
-            "starts_at": {
-                "day": 1,
-                "month": 1,
-                "year": 2024
-            },
-            "ends_at": {
-                "day": 30,
-                "month": 6,
-                "year": 2024
-            },
-            "title": "Board Member",
-            "cause": "Education",
-            "company": "STEMPOWERed",
-            "company_linkedin_profile_url": "https://www.linkedin.com/company/96357356/",
-            "description": null,
-            "logo_url": "https://media.licdn.com/dms/image/v2/D560BAQHjTYxbGRMt4Q/company-logo_400_400/company-logo_400_400/0/1691284703597?e=1735776000&v=beta&t=jK5m3l5_HzTTC0gPnz0pkde2fwn06t28gvLkIRAdwC4"
+            "title": "Science and Politics Discord Bot (Python | Discord API | Congress API | Heroku | Flask)",
+            "description": "This bot writes to the (NJIT) Science and Politics Society's Discord server. It notifies the server (once daily and via user command calls) when a new bill is introduced to the Senate or the House of Representatives. \n\n\u25aa Written in Python and uses Congress API to pull introduced bills and Discord API to write to server\n\u25aa Bot and Flask page hosted on Heroku to continuously accept user commands\n\u25aa Heroku Scheduler runs task daily\n\nGithub Link: https://github.com/Vladimir-G4/ScienceAndPoliticsDiscordBot",
+            "url": "https://scienceandpoliticsbot.herokuapp.com/"
         }
     ],
-    "certifications": [
-        {
-            "starts_at": null,
-            "ends_at": null,
-            "name": "Business Analysis & Process Management",
-            "license_number": "MEQ942Q6LZ7H",
-            "display_source": "coursera.org",
-            "authority": "Coursera",
-            "url": "https://www.coursera.org/account/accomplishments/certificate/MEQ942Q6LZ7H"
-        },
-        {
-            "starts_at": null,
-            "ends_at": null,
-            "name": "Introduction to Project Management",
-            "license_number": "39XDS38WBCXU",
-            "display_source": "coursera.org",
-            "authority": "Coursera",
-            "url": "https://www.coursera.org/account/accomplishments/certificate/39XDS38WBCXU"
-        },
-        {
-            "starts_at": {
-                "day": 1,
-                "month": 11,
-                "year": 2023
-            },
-            "ends_at": null,
-            "name": "Principles of Management",
-            "license_number": "56RSUG4VJ9P5",
-            "display_source": "coursera.org",
-            "authority": "John Hopkins University",
-            "url": "https://www.coursera.org/account/accomplishments/certificate/56RSUG4VJ9P5"
-        },
-        {
-            "starts_at": null,
-            "ends_at": null,
-            "name": "Microsoft Excel Training (Sponsored by Prudential)",
-            "license_number": null,
-            "display_source": "fe.training",
-            "authority": "Financial Edge Training",
-            "url": "https://credentials.fe.training/f4c6b323-f3cc-4533-a061-48ddd0b1d5cd"
-        },
-        {
-            "starts_at": {
-                "day": 1,
-                "month": 11,
-                "year": 2023
-            },
-            "ends_at": null,
-            "name": "Social Impact Strategy: Tools for Entrepreneurs and Innovators",
-            "license_number": "F797G394NHVP",
-            "display_source": "coursera.org",
-            "authority": "School of Social Policy & Practice at the University of Pennsylvania",
-            "url": "https://www.coursera.org/account/accomplishments/certificate/F797G394NHVP"
-        },
-        {
-            "starts_at": {
-                "day": 1,
-                "month": 12,
-                "year": 2023
-            },
-            "ends_at": null,
-            "name": "Social Entrepreneurship",
-            "license_number": "RCRGRNYLZ7SL",
-            "display_source": "coursera.org",
-            "authority": "University of Pennsylvania",
-            "url": "https://www.coursera.org/account/accomplishments/certificate/RCRGRNYLZ7SL"
-        },
-        {
-            "starts_at": {
-                "day": 1,
-                "month": 1,
-                "year": 2024
-            },
-            "ends_at": null,
-            "name": "Bloomberg Market Concepts",
-            "license_number": "Xoxyz4hVKnCgBxm8q2VoL2rM",
-            "display_source": "bloombergforeducation.com",
-            "authority": "Bloomberg",
-            "url": "https://portal.bloombergforeducation.com/certificates/Xoxyz4hVKnCgBxm8q2VoL2rM"
-        }
-    ],
-    "connections": 1084,
+    "accomplishment_test_scores": [],
+    "volunteer_work": [],
+    "certifications": [],
+    "connections": 1320,
     "people_also_viewed": [
         {
-            "link": "https://www.linkedin.com/in/alinawb?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAADg8ZLoBi0UQyP-iBNN8Q9RbHXsfNmQk00M",
-            "name": "Muzzammil Nawab",
-            "summary": "DevOps + SRE @ MLH & Meta | AI Dev @ Outlier | BS, Computer Science Student @ UTD",
+            "link": "https://www.linkedin.com/in/akaash-patel",
+            "name": "Akaash Patel",
+            "summary": "CS @ NJIT",
+            "location": "New York City Metropolitan Area"
+        },
+        {
+            "link": "https://www.linkedin.com/in/lipikasutrave",
+            "name": "Lipika Sutrave",
+            "summary": "Former Software Engineer Intern @ Fidelity Investments | OIT Lab Consultant @ Rutgers",
+            "location": "New Brunswick, NJ"
+        },
+        {
+            "link": "https://www.linkedin.com/in/tylerkim01",
+            "name": "Tyler Kim",
+            "summary": "Software Engineer at CastleBranch | Computer Science at NJIT",
+            "location": "Cliffside Park, NJ"
+        },
+        {
+            "link": "https://www.linkedin.com/in/timabright",
+            "name": "Tim Bright",
+            "summary": "Senior Full-stack Software Engineer at Fidelity Investments",
+            "location": "Provo, UT"
+        },
+        {
+            "link": "https://www.linkedin.com/in/shafeeq-noor",
+            "name": "Shafeeq Noor",
+            "summary": "Tax Transformation Intern at KPMG",
+            "location": "Saddle Brook, NJ"
+        },
+        {
+            "link": "https://www.linkedin.com/in/kristianna-gaw-4727121b9",
+            "name": "Kristianna Gaw",
+            "summary": "Computer Science and Math Student",
+            "location": "Greater Philadelphia"
+        },
+        {
+            "link": "https://www.linkedin.com/in/jamiecha5",
+            "name": "Jamie Cha",
+            "summary": "MAJOR: Computer Science | MINORS: Cybersecurity & Communications (Media Production) | Seeking Computer Science Internship",
+            "location": "Ridgefield, NJ"
+        },
+        {
+            "link": "https://www.linkedin.com/in/taswer-mahmood-922183129",
+            "name": "Taswer Mahmood",
+            "summary": "Software Developer Intern at Lumen Technologies",
+            "location": "Little Ferry, NJ"
+        },
+        {
+            "link": "https://www.linkedin.com/in/richardzhouren",
+            "name": "Richard Zhouren",
+            "summary": "CS + Business @ UC Berkeley",
+            "location": "Greater Phoenix Area"
+        },
+        {
+            "link": "https://www.linkedin.com/in/cs22-jinwoo-lim",
+            "name": "Jinwoo Lim",
+            "summary": "Engineering Analyst || CS @ NJIT",
+            "location": "Newark, NJ"
+        },
+        {
+            "link": "https://www.linkedin.com/in/nicholas-monticello-542616190",
+            "name": "Nicholas Monticello",
+            "summary": "Student at New Jersey Institute of Technology",
+            "location": "New York City Metropolitan Area"
+        },
+        {
+            "link": "https://www.linkedin.com/in/venkata-samant",
+            "name": "Bhanudai S.",
+            "summary": "Sr. Developer at Infosys",
+            "location": "Princeton, NJ"
+        },
+        {
+            "link": "https://www.linkedin.com/in/sony-uppu-081167213",
+            "name": "Sony Uppu",
+            "summary": "J2Ee Developer at Valley National Bank",
+            "location": "New York City Metropolitan Area"
+        },
+        {
+            "link": "https://www.linkedin.com/in/ilayda-turkmen-8532831b6",
+            "name": "Ilayda Turkmen",
+            "summary": "Human Computer Interaction - UX/UI Design",
+            "location": "New York City Metropolitan Area"
+        },
+        {
+            "link": "https://www.linkedin.com/in/fatih-ozdemir-5383461a8",
+            "name": "Fatih Ozdemir",
+            "summary": "Financial Technologies",
+            "location": "Clifton, NJ"
+        },
+        {
+            "link": "https://www.linkedin.com/in/winona-patrick-571438194",
+            "name": "Winona Patrick",
+            "summary": "Information Technology Specialist at Black Rocket Productions",
+            "location": "Bloomfield, NJ"
+        },
+        {
+            "link": "https://www.linkedin.com/in/kimia-naeiji-876a85200",
+            "name": "Kimia Naeiji",
+            "summary": "Android Tech Fellow  at CodePath.org",
+            "location": "New York City Metropolitan Area"
+        },
+        {
+            "link": "https://www.linkedin.com/in/pham-thuy-vu-emilia-ton",
+            "name": "Emilia Pham Ton",
+            "summary": "vGHC\u201921 | HCI @ NJIT | UX Enthusiast",
+            "location": "New York City Metropolitan Area"
+        },
+        {
+            "link": "https://www.linkedin.com/in/erik-boncic-bb8655185",
+            "name": "Erik Boncic",
+            "summary": "Computing and Informatics Major At Rowan University",
+            "location": "New York City Metropolitan Area"
+        },
+        {
+            "link": "https://www.linkedin.com/in/andrew-tawadros-47b695189",
+            "name": "Andrew Tawadros",
+            "summary": "MechE Student @ NJIT",
+            "location": "New York City Metropolitan Area"
+        },
+        {
+            "link": "https://www.linkedin.com/in/hashem-saad",
+            "name": "Hashem Saad",
+            "summary": "Mechanical Engineering Student at NJIT",
             "location": null
         },
         {
-            "link": "https://www.linkedin.com/in/giamazza?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAEVhTiUBsZFQucUiwgQDHQV7r5baZyNrcnA",
-            "name": "Gia Mazza",
-            "summary": "Software Engineering Intern at Prudential | Computer Science and Mathematics Student at Lafayette College",
+            "link": "https://www.linkedin.com/in/rajeev-botadra",
+            "name": "Rajeev Botadra",
+            "summary": "Software Engineer at L3Harris Technologies",
             "location": null
         },
         {
-            "link": "https://www.linkedin.com/in/deyby-rodriguez?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAADHPE4QBDM16C-crtyLbTnOCc1XWippF1xM",
-            "name": "Deyby Rodriguez",
-            "summary": "Returning SWE Intern @Prudential | Full Stack Web Developer | CS @ CUNY Hunter",
+            "link": "https://www.linkedin.com/in/ah-elagami",
+            "name": "Ahmed Elagami",
+            "summary": "Manufacturing Engineer at Schlumberger",
             "location": null
         },
         {
-            "link": "https://www.linkedin.com/in/carlyhubert131?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAD2MhpMB-2HoX8vvljbGeVAYpYTDtHHoe6I",
-            "name": "Carly Hubert",
-            "summary": "Computer Science Student at Duke University | SWE Intern at Prudential",
+            "link": "https://www.linkedin.com/in/jungyun-han-3520a3204",
+            "name": "Jungyun Han",
+            "summary": "Supply Chain Management Major Seeking Entry-Level Opportunites",
             "location": null
         },
         {
-            "link": "https://www.linkedin.com/in/vaidehichaudhari?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAACs6XcQBb60Y2FSOr9NpsfG2CSC_IFxPSZg",
-            "name": "Vaidehi Chaudhari",
-            "summary": "Software Engineer @Prudential Financial | MS CE @NYU ",
+            "link": "https://www.linkedin.com/in/raj-singh-10572a10a",
+            "name": "Raj Singh",
+            "summary": "Media Technology & Special Services",
             "location": null
         },
         {
-            "link": "https://www.linkedin.com/in/jackziyangchen?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAADMVCcYB-OhqziQzhhiNbsF9i_isX0J_ycA",
-            "name": "Jack Chen",
-            "summary": "CS @ NYU | Co-Founder @ Albuddy",
+            "link": "https://www.linkedin.com/in/udaydm",
+            "name": "Uday DM",
+            "summary": "Recruitment Lead at Aplomb Technologies Inc",
             "location": null
         },
         {
-            "link": "https://www.linkedin.com/in/diamond-thlang?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAChcJLYBJ0EMdhuAbHX_j_bq9cJ1CfRTbOo",
-            "name": "Diamond Thlang",
-            "summary": "Math+CS & Sociology @ Stanford | Data Science @ Prudential",
+            "link": "https://www.linkedin.com/in/marilyn-grandov-7703351a4",
+            "name": "Marilyn Grandov",
+            "summary": "Student at New Jersey Institute of Technology",
             "location": null
         },
         {
-            "link": "https://www.linkedin.com/in/benjaminguerrieri?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAD9Ap1UBCkaDkdYfuubePHpKRUOn1JPUMSg",
-            "name": "Benjamin Guerrieri",
-            "summary": "SWE Intern @ Prudential Financial",
-            "location": null
-        },
-        {
-            "link": "https://www.linkedin.com/in/haider-tech?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAABKwyacBnmjt8Hpbh_PDVAY5_NKcHFmcE6M",
-            "name": "Syed Ali Haider",
-            "summary": "CS @ NYU",
-            "location": null
-        },
-        {
-            "link": "https://www.linkedin.com/in/elias-castro-33b741270?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAEJRIJ8BllZippCtTHKZy-9NRss4mwADPtc",
-            "name": "Elias Castro",
-            "summary": "Student at Cornell University | College of Engineering | Class of 2026",
+            "link": "https://www.linkedin.com/in/craig-rodgers-2065911b6",
+            "name": "Craig Rodgers",
+            "summary": "Pharmaceutical and Healthcare Business and Aspiring Entrepreneur",
             "location": null
         }
     ],
     "recommendations": [],
-    "activities": [],
-    "similarly_named_profiles": [],
+    "activities": [
+        {
+            "title": "Today, we welcome #HSFScholars who are ready to participate in the 2021 HSF STEM Summit! Thank you to all of our amazing sponsors, Toyota Motor\u2026",
+            "link": "https://www.linkedin.com/signup/cold-join",
+            "activity_status": "Liked by Vladimir G."
+        },
+        {
+            "title": "Excited to participate in the HSF STEM Summit! #HSFSCHOLAR #STEM21 #HSF",
+            "link": "https://www.linkedin.com/signup/cold-join",
+            "activity_status": "Liked by Vladimir G."
+        },
+        {
+            "title": "I am super excited to announce that I have accepted the offer letter to return as an Engineering Analyst for summer 2022! I cannot express enough how\u2026",
+            "link": "https://www.linkedin.com/signup/cold-join",
+            "activity_status": "Liked by Vladimir G."
+        }
+    ],
+    "similarly_named_profiles": [
+        {
+            "name": "Vladimir G.",
+            "link": "https://uk.linkedin.com/in/vladimir-g-1452a840",
+            "summary": "Electrician / ETO \u2013 GulfMark UK / Tidewater UK",
+            "location": "Greater Aberdeen Area"
+        },
+        {
+            "name": "Vlad G",
+            "link": "https://www.linkedin.com/in/themadvlad",
+            "summary": "CEO",
+            "location": "Las Vegas, NV"
+        },
+        {
+            "name": "Vladimir G.",
+            "link": "https://www.linkedin.com/in/vladimir-g-6aa7398",
+            "summary": "Senior Software Engineer at Johnson Controls",
+            "location": "Boulder, CO"
+        },
+        {
+            "name": "Vladimir G.",
+            "link": "https://by.linkedin.com/in/vladimir-g-6317b819a",
+            "summary": "Junior Ruby on Rails Developer ( Looking for work )",
+            "location": "Belarus"
+        },
+        {
+            "name": "Vladimir G",
+            "link": "https://il.linkedin.com/in/x10x",
+            "summary": "Software Engineer at NAYA Technologies (EPAM)",
+            "location": "Israel"
+        }
+    ],
     "articles": [],
     "groups": [
         {
-            "profile_pic_url": "https://media.licdn.com/dms/image/v2/D5607AQECLkG6n8Oe9A/group-logo_image-shrink_400x400/group-logo_image-shrink_400x400/0/1695758778195?e=1728154800&v=beta&t=BqKDtVZswh4Oue9kzjTWRKkQXcgPgbrr22LIBbKf7TA",
-            "name": "Class Activities Board of 2025",
-            "url": "https://www.linkedin.com/groups/12649018"
+            "profile_pic_url": "https://media.licdn.com/dms/image/v2/C4E07AQEm0PJvf7knsQ/group-logo_image-shrink_400x400/group-logo_image-shrink_400x400/0/1631004053472?e=1728154800&v=beta&t=vR6sPWyQQjib5djHqVmY3i-V1GZajrXYX0ndkxnD4BA",
+            "name": "281 MLK Networking Group",
+            "url": "https://www.linkedin.com/groups/12404852"
         },
         {
-            "profile_pic_url": "https://media.licdn.com/dms/image/v2/C4E07AQGSn1fJhPaYag/group-logo_image-shrink_400x400/group-logo_image-shrink_400x400/0/1630997250243?e=1728154800&v=beta&t=H17yI7nSP0VipyU6YyhrKJwNAXt2zdgICokJc2kjzfc",
-            "name": "NYU Venture Community",
-            "url": "https://www.linkedin.com/groups/1470657"
+            "profile_pic_url": "https://media.licdn.com/dms/image/v2/C5607AQHhtXMFupkatw/group-logo_image-shrink_48x48/group-logo_image-shrink_48x48/0/1631004101653?e=1728154800&v=beta&t=wAfBi3hLPtxJWsvWl_6JiZUSt9yuME8t4j6f_rEgEE0",
+            "name": "MLT Career Prep Fellows '23",
+            "url": "https://www.linkedin.com/groups/13960233"
         }
     ],
     "skills": [],

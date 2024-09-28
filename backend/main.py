@@ -14,12 +14,12 @@ def load_env():
                 key, value = line.strip().split('=', 1)
                 os.environ[key] = value
 
+
 # Call this function to load the variables
 load_env()
 
 # Now you can use the environment variables
 PROXYCURL_API_KEY = os.getenv('PROXYCURL_API_KEY')
-
 
 # Check if the API key is loaded correctly
 if not PROXYCURL_API_KEY:
@@ -27,7 +27,8 @@ if not PROXYCURL_API_KEY:
 
 # Common stop words to exclude from keywords (can be extended or replaced with an external library like NLTK)
 STOP_WORDS = set([
-    "the", "is", "at", "which", "on", "and", "a", "an", "in", "to", "for", "with", "by", "it", "this", "that", "of", "or", "as", "be", "i", "my", "m", "have", "can"
+    "the", "is", "at", "which", "on", "and", "a", "an", "in", "to", "for", "with", "by", "it", "this", "that", "of",
+    "or", "as", "be", "i", "my", "m", "have", "can"
 ])
 
 # Define a list of domain-specific keywords for computer science, jobs, and education
@@ -38,9 +39,11 @@ DOMAIN_SPECIFIC_TERMS = set([
     "university", "college", "education", "training", "mentor", "resume", "internship", "programming", "database",
     "dashboard", "tech", "developer", "programmer", "startup", "leadership", "cybersecurity", "machine learning",
     "artificial intelligence", "data science", "api", "computer science", "jobs", "job", "career", "experience",
-    "operations", "financial", "hr", "investment", "stocks", "scholarship", "scholar", "academic", "research", "machine",
+    "operations", "financial", "hr", "investment", "stocks", "scholarship", "scholar", "academic", "research",
+    "machine",
     "merit", "swe", "cs", "tandon", "software", "startup"
 ])
+
 
 # Function to get LinkedIn profile data
 def get_profile(profile_id):
@@ -63,6 +66,7 @@ def get_profile(profile_id):
     # Return the JSON response
     return response.json()
 
+
 # Function to recursively extract all strings from JSON, excluding URLs
 def extract_strings(data):
     strings = []
@@ -84,12 +88,14 @@ def extract_strings(data):
 
     return strings
 
+
 # Function to tokenize text into words and filter out stop words
 def tokenize_and_filter(text):
     # Convert to lowercase and use a regular expression to extract words only
     words = re.findall(r'\b\w+\b', text.lower())
     # Filter out stop words
     return [word for word in words if word not in STOP_WORDS]
+
 
 # Function to find keywords (words that appear multiple times) and filter by domain-specific terms
 def extract_keywords(strings):
@@ -107,11 +113,13 @@ def extract_keywords(strings):
 
     return keywords
 
+
 # Save strings to a text file
 def save_strings_to_file(strings, filename="output-data/strings.txt"):
     with open(filename, 'w') as file:
         for string in strings:
             file.write(string + '\n')
+
 
 # Save keywords to a file
 def save_keywords_to_file(keywords, filename="output-data/keywords.txt"):
@@ -119,8 +127,9 @@ def save_keywords_to_file(keywords, filename="output-data/keywords.txt"):
         for keyword in keywords:
             file.write(keyword + '\n')
 
+
 # Example usage - replace with the actual LinkedIn profile ID
-profile_data = get_profile("brianzou03")
+profile_data = get_profile("vladimir-gutierrez")
 
 # Print the data to console
 print(profile_data)
@@ -141,4 +150,5 @@ keywords = extract_keywords(strings)
 # Save the keywords to 'keywords.txt'
 save_keywords_to_file(keywords)
 
-print(f"Extracted strings have been saved to strings.txt and keywords saved to keywords.txt (filtered by domain-specific terms).")
+print(
+    f"Extracted strings have been saved to strings.txt and keywords saved to keywords.txt (filtered by domain-specific terms).")
