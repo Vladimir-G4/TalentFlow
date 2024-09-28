@@ -8,6 +8,8 @@ https://talentflow.dev
 
 ## **Backend Overview**
 The backend serves data scraped from LinkedIn profiles. The API provides multiple endpoints for accessing profile data, keywords, work experience, and education. The API is designed to be consumed by a React frontend.
+The API keys are stored in a .env file.
+
 
 ## **API Endpoints**
 The following API endpoints are available for the React frontend to consume:

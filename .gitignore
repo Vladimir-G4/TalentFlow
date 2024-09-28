@@ -11,7 +11,7 @@ venv/
 ENV/
 env/
 .venv/
-.ENV/
+backend/.env/
 
 # Flask specific files
 instance/

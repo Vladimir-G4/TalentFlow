@@ -1,10 +1,29 @@
+import os
 import requests
 import json
 import re
 from collections import Counter
 
-# Set your Proxycurl API Key
-PROXYCURL_API_KEY = 'VzO5yX_tDuCP7eMpXs8nLQ'
+
+def load_env():
+    with open('.env') as f:
+        for line in f:
+            # Ignore empty lines and comments
+            if line.strip() and not line.startswith('#'):
+                # Split the key and value
+                key, value = line.strip().split('=', 1)
+                os.environ[key] = value
+
+# Call this function to load the variables
+load_env()
+
+# Now you can use the environment variables
+PROXYCURL_API_KEY = os.getenv('PROXYCURL_API_KEY')
+
+
+# Check if the API key is loaded correctly
+if not PROXYCURL_API_KEY:
+    raise ValueError("PROXYCURL_API_KEY not found. Please check your .env file.")
 
 # Common stop words to exclude from keywords (can be extended or replaced with an external library like NLTK)
 STOP_WORDS = set([
@@ -89,13 +108,13 @@ def extract_keywords(strings):
     return keywords
 
 # Save strings to a text file
-def save_strings_to_file(strings, filename="strings.txt"):
+def save_strings_to_file(strings, filename="output-data/strings.txt"):
     with open(filename, 'w') as file:
         for string in strings:
             file.write(string + '\n')
 
 # Save keywords to a file
-def save_keywords_to_file(keywords, filename="keywords.txt"):
+def save_keywords_to_file(keywords, filename="output-data/keywords.txt"):
     with open(filename, 'w') as file:
         for keyword in keywords:
             file.write(keyword + '\n')
@@ -107,7 +126,7 @@ profile_data = get_profile("brianzou03")
 print(profile_data)
 
 # Save the JSON response to a file
-with open('profile_data.json', 'w') as json_file:
+with open('output-data/profile_data.json', 'w') as json_file:
     json.dump(profile_data, json_file, indent=4)  # indent=4 formats the JSON for readability
 
 # Extract all string values from the JSON response, excluding only URLs

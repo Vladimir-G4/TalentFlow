@@ -4,11 +4,11 @@ import json
 app = Flask(__name__)
 
 # Load the profile data (profile_data.json)
-with open('profile_data.json') as f:
+with open('output-data/profile_data.json') as f:
     profile_data = json.load(f)
 
 # Load the keywords (keywords.txt)
-with open('keywords.txt') as f:
+with open('output-data/keywords.txt') as f:
     keywords = [line.strip() for line in f.readlines()]
 
 
