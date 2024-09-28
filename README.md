@@ -1,12 +1,12 @@
 # TalentFlow
-https://talentflow.dev
+https://talentflow.us
 
 ## **Overview**
 **TalentFlow** is a college-specific platform designed to help students and alumni gain deeper insights into where their peers have interned or worked. Our platform provides a transparent view of companies, complete with ratings for interview processes and work experiences. Users can see the number of active and alumni students currently employed at each company, explore detailed profiles of peers who have navigated similar career paths, and leverage AI-powered resume analysis to identify key skills that correlate with successful hires.
 
-## **Frontend Overview**
+## **Frontend**
 
-## **Backend Overview**
+## **Backend**
 The backend serves data scraped from LinkedIn profiles. The API provides multiple endpoints for accessing profile data, keywords, work experience, and education. The API is designed to be consumed by a React frontend.
 The API keys are stored in a .env file.
 
