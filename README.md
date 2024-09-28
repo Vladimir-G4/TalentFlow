@@ -26,6 +26,6 @@ https://talentflow.dev
 ## **Tech Stack**
  - Frontend: React, TypeScript, Tailwind CSS
  - Backend: Node.js, Express
- - Database: MongoDB
+ - Database: MongoDB Atlas
  - AI Analysis: HuggingFace OS AI
- - Hosting: Vercel
+ - Hosting: AWS
