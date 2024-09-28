@@ -1,0 +1,73 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv/
+.ENV/
+
+# Flask specific files
+instance/
+instance/*
+
+# If using SQLite
+*.sqlite3
+
+# Environment variables
+*.env
+.env.*
+.envrc
+.env.*
+
+# Logs
+*.log
+*.out
+*.err
+
+# Pytest cache and coverage reports
+.cache/
+coverage/
+*.cover
+.hypothesis/
+*.coveragerc
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# pyenv
+.python-version
+
+# Editors and IDEs
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# macOS
+.DS_Store
+
+# Docker
+docker-compose*.yml
+.dockerignore
