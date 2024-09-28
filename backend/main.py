@@ -1,88 +1,29 @@
 import requests
 import json
 import re
-import nltk
-from nltk.corpus import words
-
-# Download the words corpus
-nltk.download('words')
+from collections import Counter
 
 # Set your Proxycurl API Key
 PROXYCURL_API_KEY = 'VzO5yX_tDuCP7eMpXs8nLQ'
 
+# Common stop words to exclude from keywords (can be extended or replaced with an external library like NLTK)
+STOP_WORDS = set([
+    "the", "is", "at", "which", "on", "and", "a", "an", "in", "to", "for", "with", "by", "it", "this", "that", "of", "or", "as", "be", "i", "my", "m", "have", "can"
+])
 
-# Function to get the list of programming languages from GitHub API
-def fetch_programming_languages():
-    url = "https://raw.githubusercontent.com/github/linguist/master/lib/linguist/languages.yml"
-    response = requests.get(url)
+# Define a list of domain-specific keywords for computer science, jobs, and education
+DOMAIN_SPECIFIC_TERMS = set([
+    "ai", "machine learning", "data", "python", "javascript", "devops", "api", "software", "engineer", "developer",
+    "programming", "computer", "science", "technology", "framework", "lms", "cloud", "development", "sql", "mysql",
+    "selenium", "web", "scraper", "project", "engineering", "software engineer", "intern", "internship", "student",
+    "university", "college", "education", "training", "mentor", "resume", "internship", "programming", "database",
+    "dashboard", "tech", "developer", "programmer", "startup", "leadership", "cybersecurity", "machine learning",
+    "artificial intelligence", "data science", "api", "computer science", "jobs", "job", "career", "experience",
+    "operations", "financial", "hr", "investment", "stocks", "scholarship", "scholar", "academic", "research", "machine",
+    "merit", "swe", "cs", "tandon", "software", "startup"
+])
 
-    # Parse the raw YAML file from GitHub to get programming languages (can be used with PyYAML if needed)
-    if response.status_code == 200:
-        text = response.text
-        languages = re.findall(r'^[A-Za-z\-]+:', text, re.MULTILINE)
-        languages = [lang.strip(':').lower() for lang in languages]
-        return set(languages)
-    return set()
-
-
-# Get a set of valid English words from nltk
-ENGLISH_WORDS = set(words.words())
-
-# Get a set of technical terms (fetched from GitHub, can include programming languages)
-TECH_WORDS = fetch_programming_languages()
-
-
-# Function to check if a string is meaningful (using word list and dynamic tech terms)
-def is_meaningful_string(s):
-    # Regular expression to match URLs
-    url_pattern = re.compile(r'http[s]?://|www\.')
-
-    # If it's a URL, return False
-    if url_pattern.match(s):
-        return False
-
-    # Filter out short strings and strings that are mostly numbers
-    if len(s) < 3 or re.fullmatch(r'\d+', s):
-        return False
-
-    # Split the string into individual words
-    word_list = re.findall(r'[A-Za-z]+', s)
-
-    # Check if all words in the string are either in the English words list or dynamically fetched tech terms
-    for word in word_list:
-        if word.lower() not in ENGLISH_WORDS and word.lower() not in TECH_WORDS:
-            return False
-
-    return True
-
-
-# Function to recursively extract all strings from JSON, excluding URLs and gibberish
-def extract_strings(data):
-    strings = []
-
-    # Recursively process the data to find all meaningful strings
-    if isinstance(data, dict):
-        for key, value in data.items():
-            strings.extend(extract_strings(value))
-    elif isinstance(data, list):
-        for item in data:
-            strings.extend(extract_strings(item))
-    elif isinstance(data, str):
-        # Append only meaningful strings (exclude gibberish and links)
-        if is_meaningful_string(data):
-            strings.append(data)
-
-    return strings
-
-
-# Save strings to a text file
-def save_strings_to_file(strings, filename="strings.txt"):
-    with open(filename, 'w') as file:
-        for string in strings:
-            file.write(string + '\n')
-
-
-# Define a function to get LinkedIn profile data
+# Function to get LinkedIn profile data
 def get_profile(profile_id):
     # API endpoint for LinkedIn profile scraping
     api_endpoint = 'https://nubela.co/proxycurl/api/v2/linkedin'
@@ -103,6 +44,61 @@ def get_profile(profile_id):
     # Return the JSON response
     return response.json()
 
+# Function to recursively extract all strings from JSON, excluding URLs
+def extract_strings(data):
+    strings = []
+
+    # Regular expression to match URLs
+    url_pattern = re.compile(r'http[s]?://|www\.')
+
+    # Recursively process the data to find all strings
+    if isinstance(data, dict):
+        for key, value in data.items():
+            strings.extend(extract_strings(value))
+    elif isinstance(data, list):
+        for item in data:
+            strings.extend(extract_strings(item))
+    elif isinstance(data, str):
+        # Exclude strings that match URL pattern
+        if not url_pattern.match(data):
+            strings.append(data)
+
+    return strings
+
+# Function to tokenize text into words and filter out stop words
+def tokenize_and_filter(text):
+    # Convert to lowercase and use a regular expression to extract words only
+    words = re.findall(r'\b\w+\b', text.lower())
+    # Filter out stop words
+    return [word for word in words if word not in STOP_WORDS]
+
+# Function to find keywords (words that appear multiple times) and filter by domain-specific terms
+def extract_keywords(strings):
+    # Flatten the list of strings into a single block of text
+    combined_text = ' '.join(strings)
+
+    # Tokenize the text and filter out stop words
+    words = tokenize_and_filter(combined_text)
+
+    # Count the frequency of each word
+    word_count = Counter(words)
+
+    # Filter by frequency (words appearing more than once) and domain-specific terms
+    keywords = [word for word, count in word_count.items() if count > 1 and word in DOMAIN_SPECIFIC_TERMS]
+
+    return keywords
+
+# Save strings to a text file
+def save_strings_to_file(strings, filename="strings.txt"):
+    with open(filename, 'w') as file:
+        for string in strings:
+            file.write(string + '\n')
+
+# Save keywords to a file
+def save_keywords_to_file(keywords, filename="keywords.txt"):
+    with open(filename, 'w') as file:
+        for keyword in keywords:
+            file.write(keyword + '\n')
 
 # Example usage - replace with the actual LinkedIn profile ID
 profile_data = get_profile("brianzou03")
@@ -111,13 +107,19 @@ profile_data = get_profile("brianzou03")
 print(profile_data)
 
 # Save the JSON response to a file
-with open('../../../Desktop/TEMP/profile_data.json', 'w') as json_file:
+with open('profile_data.json', 'w') as json_file:
     json.dump(profile_data, json_file, indent=4)  # indent=4 formats the JSON for readability
 
-# Extract all string values from the JSON response, excluding URLs and gibberish
+# Extract all string values from the JSON response, excluding only URLs
 strings = extract_strings(profile_data)
 
 # Save the strings to 'strings.txt'
 save_strings_to_file(strings)
 
-print(f"Extracted strings have been saved to strings.txt (excluding URLs and gibberish)")
+# Extract keywords (words that appear multiple times) from the strings, filtered by domain-specific terms
+keywords = extract_keywords(strings)
+
+# Save the keywords to 'keywords.txt'
+save_keywords_to_file(keywords)
+
+print(f"Extracted strings have been saved to strings.txt and keywords saved to keywords.txt (filtered by domain-specific terms).")

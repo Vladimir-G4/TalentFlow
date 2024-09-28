@@ -1,7 +1,7 @@
 {
     "public_identifier": "brianzou03",
-    "profile_pic_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/person/brianzou03/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240928%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240928T182154Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=d07c870401d51dd2e730c17c2fb0efd026e1043ae2da0097ec3fc82b5c1bcd97",
-    "background_cover_image_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/person/brianzou03/cover?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240928%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240928T182154Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=946d85670add428f40c830f39ec5b5c487c9358df32d54b04d28302f752330f6",
+    "profile_pic_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/person/brianzou03/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240928%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240928T184952Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=40ea0e736d4e15c6201e723699253558247e227d2c30690bee0c20a1c8868d6a",
+    "background_cover_image_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/person/brianzou03/cover?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240928%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240928T184952Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=4b30c832764c5fe06e64dd0fd079d6fc0f6082a570050b48b530df9efa695a9f",
     "first_name": "Brian",
     "last_name": "Zou",
     "full_name": "Brian Zou",
@@ -27,7 +27,7 @@
             "title": "Co-Founder",
             "description": "Building with support from:\n\u2022 PropelAuth Starting Line\n\u2022 Headstarter AI\n\u2022 Google for Startups Cloud program",
             "location": null,
-            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/stealth-startup-51/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240928%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240928T182154Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=b5edd352260272af985e0c5af7cc2f07f1a41da06e9ad2b6a02239d41790da1a"
+            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/stealth-startup-51/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240928%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240928T184956Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=6cf7f9bd6b897d41e2008391f3ff9dbe1b4728fd79be3546729490dcbada4346"
         },
         {
             "starts_at": {
@@ -42,7 +42,7 @@
             "title": "Mentor",
             "description": "\u2022 Mentored high school students on the college admissions process and tech internship applications\n\u2022 Reviewed resumes and provided resources to students on their application journey",
             "location": null,
-            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/bobatalks/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240928%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240928T182154Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=ee3cc4268d7683ae713de911d6c2d26dffa18899dca1d46bf1d2690443357f8d"
+            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/bobatalks/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240928%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240928T184956Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=f531097b413577365255eff65f064215de48330f2c35441fd4b177930313cebc"
         },
         {
             "starts_at": {
@@ -57,7 +57,7 @@
             "title": "Director of Programming at the NYU Commuter Student Council",
             "description": "\u2022 Lead and hosted various events, including sessions on transportation, public safety, and childcare.\n\u2022 Coordinated with Tandon Director of Programming and Director of Finance to create events.",
             "location": "New York, United States",
-            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/new-york-university/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240928%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240928T182154Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=3854260369beea3437e779ad63e17cc29b85d18cc0a515459f06bb1043874799"
+            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/new-york-university/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240928%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240928T184956Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=5e0a130dc59a6d47d7f28ba40d7f1afb5c740114aabfc0d42c59e302dc754239"
         },
         {
             "starts_at": {
@@ -72,7 +72,7 @@
             "title": "Board Member",
             "description": "\u2022 Managed development operations, providing resources and frameworks for projects and events\n\u2022 Strategized planning for organization initiative, such as tutoring via SchoolHouse",
             "location": null,
-            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/stempowered/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240928%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240928T182154Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=bf92c3f2096578ccac2b2121c5c7de79aea18e049957b69ef3a59465bf60e09d"
+            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/stempowered/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240928%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240928T184956Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=27d5f5bf8e2f8316e7340741fae5b2fa56eca53e7a0aadb9fba09760413bb93e"
         },
         {
             "starts_at": {
@@ -106,7 +106,7 @@
             "title": "Software Engineer Intern",
             "description": "\u2022 DevOps\n\u2022 Java Spring Boot\n\u2022 Identity Access Management\n\u2022 Notification API\n\u2022 Email template engine\n\u2022 Secrets management / HashiCorp vault",
             "location": "Newark, New Jersey, United States",
-            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/prudential-financial/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240928%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240928T182154Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=ef0c7adaae169c1372ef88a1efef1c5fd939db7f1318fa8592d97ca8859a5e38"
+            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/prudential-financial/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240928%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240928T184956Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=cc629ed780187647d15fb0ba35a6dff009ae8b9f0e7616410f7e633bc1edeff3"
         },
         {
             "starts_at": {
@@ -125,7 +125,7 @@
             "title": "Private Tutor",
             "description": "\u2022 Delivered computer science sessions to students resulting in positive grade improvements\n\u2022 Helped students develop strong technical problem solving and critical thinking skills",
             "location": "New York, NY",
-            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/wyzant-tutoring/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240928%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240928T182154Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=5241e771be0e6798f0e0ce1d0ea5fae699ac25ad871f01665c11cc6f890c615f"
+            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/wyzant-tutoring/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240928%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240928T184956Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=4df3bb0f3797479a4829b527f9ec25bc8b330e8c4c01d4f8cf67875a0a5ba847"
         },
         {
             "starts_at": {
@@ -144,7 +144,7 @@
             "title": "Software Engineer Intern",
             "description": "\u2022 Developed and deployed a payload service, boosting team efficiency by 150%\n\u2022 Automated access to S3 buckets and interface to modify data payloads",
             "location": "Newark, New Jersey, United States",
-            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/prudential-financial/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240928%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240928T182154Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=ef0c7adaae169c1372ef88a1efef1c5fd939db7f1318fa8592d97ca8859a5e38"
+            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/prudential-financial/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240928%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240928T184956Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=cc629ed780187647d15fb0ba35a6dff009ae8b9f0e7616410f7e633bc1edeff3"
         },
         {
             "starts_at": {
@@ -182,7 +182,7 @@
             "title": "Chief Technology Officer",
             "description": "[Acquired]\n\u2022 Hired and led a team of 20 software engineer interns in developing a LMS platform\n\u2022 Developed and deployed functional LMS platform to AWS, successfully meeting client deadlines",
             "location": "remote",
-            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/aitudier/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240928%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240928T182154Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=b311e3cdaa6bc52fde38cb6ed9f62609592880b5407a626bee77b2bb53673610"
+            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/aitudier/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240928%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240928T184956Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=be6574f4a152a921c2449d5912a043c73a79727549ef44cca2807d62e2e81e2d"
         }
     ],
     "education": [
@@ -203,7 +203,7 @@
             "school_linkedin_profile_url": "https://www.linkedin.com/company/new-york-university",
             "school_facebook_profile_url": null,
             "description": "Minor: Creative Writing\nHonors: Dean's list 2021-2022, 2022-2023",
-            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/new-york-university/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240928%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240928T182154Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=3854260369beea3437e779ad63e17cc29b85d18cc0a515459f06bb1043874799",
+            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/new-york-university/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240928%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240928T184958Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=4b7bd7b30dfa7b3cb1603ecb1a889d84c2c451e15577676d5532b38a723c7a5e",
             "grade": "3.83/4.0",
             "activities_and_societies": "\u2022 NYU Commuter Student Council (Director of Programming)\n\u2022 NYU Student Government Assembly (Sustainability, Student Technology, and Operations committees)\n\u2022 CAB25\n\u2022 Tech@NYU\n\u2022 BUGS Open Source\n\u2022 Data Science Club\n\u2022 HackNYU (2022)"
         }
