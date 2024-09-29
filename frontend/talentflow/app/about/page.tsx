@@ -1,6 +1,6 @@
 'use client';
 import React from 'react';
-import bgImage from './images/bg.png';
+import bgImage from '../images/bg.png';
 
 const AboutUs = () => {
   return (
