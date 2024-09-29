@@ -1,18 +1,18 @@
 'use client';
 import React, { useEffect } from 'react';
-import { useAuth0 } from '@auth0/auth0-react'; // Import the Auth0 hook
-import { useRouter } from 'next/navigation'; // Import the Next.js router
+import { Auth0Provider, useAuth0 } from '@auth0/auth0-react';
+import { useRouter } from 'next/navigation'; 
 import bgImage from './images/bg.png';
 import TalentFlowBG from './images/talentflowbg.png';
 import LoginButton from './components/login';
 
 const Home = () => {
-  const { isAuthenticated } = useAuth0(); // Destructure necessary properties
-  const router = useRouter(); // Initialize the router
+  const { isAuthenticated } = useAuth0();
+  const router = useRouter();
 
   useEffect(() => {
     if (isAuthenticated) {
-      router.push('/dashboard'); // Navigate to the dashboard if authenticated
+      router.push('/dashboard');
     }
   }, [isAuthenticated, router]);
 
@@ -111,7 +111,15 @@ const Home = () => {
             We're thrilled to have you here. Let's explore your opportunities!
           </h4>
           <div className="flex flex-col space-y-4 mt-4">
-            <LoginButton />
+            <Auth0Provider
+              domain="dev-hid4tkzfxe7l2y4n.us.auth0.com"
+              clientId="sclQKRrckfPQ4gl30aGDdyHFQFcwHvo2"
+              authorizationParams={{
+                redirect_uri: window.location.origin,
+              }}
+            >
+            <LoginButton /> 
+            </Auth0Provider>
           </div>
         </div>
       </div>

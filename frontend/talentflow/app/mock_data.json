@@ -1,112 +1,213 @@
 {
-    "user": {
-      "profilePhoto": "https://randomuser.me/api/portraits/men/32.jpg",
-      "name": "Dylan Ton-That",
-      "email": "dkt5@njit.edu",
-      "aboutMe": "I am a passionate computer science student with a keen interest in software development and artificial intelligence. I love coding, solving problems, and learning new technologies.",
-      "education": {
-        "degree": "Bachelor of Science in Computer Science",
-        "institution": "New Jersey Institute of Technology",
-        "yearOfGraduation": "2025"
-      },
-      "skills": ["Java", "JavaScript", "Python", "React", "Node.js", "Machine Learning"],
-      "experiences": [
-        {
-          "positionTitle": "Software Engineer Intern",
-          "company": "Tech Solutions Inc.",
-          "logo": "https://via.placeholder.com/50",
-          "positionType": "Internship",
-          "startDate": "June 2023",
-          "endDate": "August 2023",
-          "remote": true,
-          "location": "Remote",
-          "bulletPoints": [
-            "Developed web applications using React and Node.js.",
-            "Collaborated with a team of engineers to design and implement new features.",
-            "Participated in daily stand-ups and sprint planning sessions."
-          ]
-        },
-        {
-          "positionTitle": "Software Development Intern",
-          "company": "Innovative Tech LLC",
-          "logo": "https://via.placeholder.com/50",
-          "positionType": "Internship",
-          "startDate": "January 2023",
-          "endDate": "May 2023",
-          "remote": false,
-          "location": "Newark, NJ",
-          "bulletPoints": [
-            "Assisted in the development of backend APIs using Python and Flask.",
-            "Wrote unit tests and conducted code reviews.",
-            "Engaged in team meetings to discuss project progress."
-          ]
-        }
+  "user": {
+  "profilePhoto": "https://media.licdn.com/dms/image/v2/D4E03AQEG9RMXM0MgwA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1723750330625?e=1733356800&v=beta&t=fqIHwkMMiZDlQS1SB5YkX8l3kMamgdX2CQYPrCasSPg",
+  "name": "Dylan Ton-That",
+  "email": "dkt5@njit.edu",
+  "aboutMe": "I am a passionate computer science student with a keen interest in software development and artificial intelligence. I love coding, solving problems, and learning new technologies.",
+  "education": {
+    "degree": "Bachelor of Science in Computer Science",
+    "institution": "New Jersey Institute of Technology",
+    "yearOfGraduation": "2025"
+  },
+  "skills": ["Java", "JavaScript", "Python", "React", "Node.js", "Machine Learning"],
+  "experiences": [
+    {
+      "positionTitle": "Software Engineer Intern",
+      "company": "Prudential",
+      "logo": "https://newmoongraphics.com/wp-content/uploads/2010/09/prudential2.jpg",
+      "positionType": "Internship",
+      "startDate": "June 2023",
+      "endDate": "August 2023",
+      "remote": false,
+      "location": "Newark, NJ",
+      "bulletPoints": [
+        "Contributed to the development of financial tools using Java and Spring Boot.",
+        "Improved application performance by optimizing SQL queries.",
+        "Collaborated with senior engineers on project design and implementation."
       ]
     },
-    "dashboard": {
-      "companies": [
-        {
-          "photo": "https://via.placeholder.com/100",
-          "name": "Tech Solutions Inc.",
-          "averageRating": 4.5,
-          "sector": "Technology",
-          "blurb": "Tech Solutions Inc. specializes in innovative software development.",
-          "studentsWorked": {
-            "total": 50,
-            "lastYear": 15
-          },
-          "students": [
-            {
-              "photo": "https://randomuser.me/api/portraits/men/11.jpg",
-              "fullName": "Alice Smith",
-              "major": "Computer Science",
-              "school": "NJIT",
-              "starRating": 4,
-              "review": "Great experience! I learned a lot about software engineering practices."
-            },
-            {
-              "photo": "https://randomuser.me/api/portraits/women/22.jpg",
-              "fullName": "Bob Johnson",
-              "major": "Information Technology",
-              "school": "NJIT",
-              "starRating": 5,
-              "review": "The team was very supportive and I enjoyed my projects."
-            },
-            {
-              "photo": "https://randomuser.me/api/portraits/men/33.jpg",
-              "fullName": "Charlie Brown",
-              "major": "Mathematics",
-              "school": "NJIT",
-              "starRating": 3,
-              "review": "It was a good experience but I felt I needed more guidance."
-            },
-            {
-              "photo": "https://randomuser.me/api/portraits/women/44.jpg",
-              "fullName": "Diana Prince",
-              "major": "Computer Science",
-              "school": "NJIT",
-              "starRating": 4,
-              "review": "I gained hands-on experience with real-world projects."
-            },
-            {
-              "photo": "https://randomuser.me/api/portraits/men/55.jpg",
-              "fullName": "Edward Elric",
-              "major": "Information Technology",
-              "school": "NJIT",
-              "starRating": 5,
-              "review": "A fantastic learning opportunity in a great environment."
-            },
-            {
-              "photo": "https://randomuser.me/api/portraits/women/66.jpg",
-              "fullName": "Fiona Apple",
-              "major": "Mathematics",
-              "school": "NJIT",
-              "starRating": 4,
-              "review": "Learned so much about software development cycles."
-            }
-          ]
-        }
+    {
+      "positionTitle": "Software Development Intern",
+      "company": "Johnson & Johnson",
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqPTZhqYlleavXa4hMDgj_X1p0u8Gss2LeoA&s",
+      "positionType": "Internship",
+      "startDate": "January 2023",
+      "endDate": "May 2023",
+      "remote": false,
+      "location": "New Brunswick, NJ",
+      "bulletPoints": [
+        "Assisted in the development of internal software applications using Python and React.",
+        "Automated data workflows to improve processing efficiency.",
+        "Documented code and participated in team meetings to refine project requirements."
       ]
     }
+  ]
+  },
+  "dashboard": {
+    "companies": [
+      {
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Logonetflix.png",
+        "name": "Netflix",
+        "averageRating": 4.5,
+        "sector": "Entertainment Technology",
+        "blurb": "Netflix is a leading streaming entertainment service, offering original content and advanced video technologies.",
+        "studentsWorked": {
+          "total": 30,
+          "lastYear": 10
+        },
+        "students": [
+          {
+            "photo": "https://randomuser.me/api/portraits/women/11.jpg",
+            "fullName": "Sarah Connor",
+            "major": "Computer Science",
+            "school": "NJIT",
+            "starRating": 5,
+            "review": "An incredible experience, working on high-impact projects."
+          },
+          {
+            "photo": "https://randomuser.me/api/portraits/men/45.jpg",
+            "fullName": "James Smith",
+            "major": "Information Technology",
+            "school": "NJIT",
+            "starRating": 4,
+            "review": "I learned a lot about scalable architecture and microservices."
+          }
+        ]
+      },
+      {
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg",
+        "name": "Amazon",
+        "averageRating": 4,
+        "sector": "E-commerce & Cloud Computing",
+        "blurb": "Amazon is the world's largest online retailer and cloud service provider, known for its culture of innovation.",
+        "studentsWorked": {
+          "total": 100,
+          "lastYear": 30
+        },
+        "students": [
+          {
+            "photo": "https://randomuser.me/api/portraits/women/22.jpg",
+            "fullName": "Lisa Wong",
+            "major": "Computer Science",
+            "school": "NJIT",
+            "starRating": 4,
+            "review": "Fast-paced environment with lots of learning opportunities."
+          },
+          {
+            "photo": "https://randomuser.me/api/portraits/men/55.jpg",
+            "fullName": "Tom Green",
+            "major": "Business Administration",
+            "school": "NJIT",
+            "starRating": 5,
+            "review": "Amazing company culture and emphasis on innovation."
+          }
+        ]
+      },
+      {
+        "photo": "https://cdn2.hubspot.net/hubfs/53/image8-2.jpg",
+        "name": "Google",
+        "averageRating": 4,
+        "sector": "Technology",
+        "blurb": "Google specializes in internet services and products, from search engines to artificial intelligence.",
+        "studentsWorked": {
+          "total": 120,
+          "lastYear": 40
+        },
+        "students": [
+          {
+            "photo": "https://randomuser.me/api/portraits/men/66.jpg",
+            "fullName": "John Doe",
+            "major": "Data Science",
+            "school": "NJIT",
+            "starRating": 5,
+            "review": "The best experience for any aspiring software engineer."
+          }
+        ]
+      },
+      {
+        "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPBss61ZSzmBM75JqdYCVqsfqJ4JijX0mt9g&s",
+        "name": "IBM",
+        "averageRating": 4,
+        "sector": "Information Technology",
+        "blurb": "IBM is a multinational company providing computer hardware, software, and consulting services.",
+        "studentsWorked": {
+          "total": 70,
+          "lastYear": 20
+        },
+        "students": [
+          {
+            "photo": "https://randomuser.me/api/portraits/women/33.jpg",
+            "fullName": "Mary Johnson",
+            "major": "Information Technology",
+            "school": "NJIT",
+            "starRating": 4,
+            "review": "Great mentorship and an opportunity to work on cutting-edge tech."
+          }
+        ]
+      },
+      {
+        "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTicNAnlxzmV3MkM4G_G3R1AApgOwQABOU6Xw&s",
+        "name": "Prudential",
+        "averageRating": 4,
+        "sector": "Financial Services",
+        "blurb": "Prudential is a global leader in financial services, providing insurance and investment solutions.",
+        "studentsWorked": {
+          "total": 50,
+          "lastYear": 15
+        },
+        "students": [
+          {
+            "photo": "https://randomuser.me/api/portraits/men/77.jpg",
+            "fullName": "Michael Carter",
+            "major": "Finance",
+            "school": "NJIT",
+            "starRating": 4,
+            "review": "Insightful experience into the finance world with excellent support."
+          }
+        ]
+      },
+      {
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/9/96/Microsoft_logo_%282012%29.svg",
+        "name": "Microsoft",
+        "averageRating": 4,
+        "sector": "Technology",
+        "blurb": "Microsoft is a leading developer of personal computing software, hardware, and cloud services.",
+        "studentsWorked": {
+          "total": 80,
+          "lastYear": 25
+        },
+        "students": [
+          {
+            "photo": "https://randomuser.me/api/portraits/women/44.jpg",
+            "fullName": "Samantha Lee",
+            "major": "Computer Science",
+            "school": "NJIT",
+            "starRating": 5,
+            "review": "The culture and technical work at Microsoft were top-notch."
+          }
+        ]
+      },
+      {
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Goldman_Sachs.svg/2048px-Goldman_Sachs.svg.png",
+        "name": "Goldman Sachs",
+        "averageRating": 4,
+        "sector": "Investment Banking",
+        "blurb": "Goldman Sachs is a leading global investment banking and securities firm, providing financial services to corporations.",
+        "studentsWorked": {
+          "total": 60,
+          "lastYear": 18
+        },
+        "students": [
+          {
+            "photo": "https://randomuser.me/api/portraits/men/88.jpg",
+            "fullName": "David Brown",
+            "major": "Finance",
+            "school": "NJIT",
+            "starRating": 4,
+            "review": "A challenging environment, but great for learning finance."
+          }
+        ]
+      }
+    ]
   }
-  
+}
