@@ -1,14 +1,6 @@
 import os
-import requests
-from flask.cli import load_dotenv
-from transformers import pipeline
-import pdfplumber
-from PyPDF2 import PdfReader, PdfWriter
-from reportlab.pdfgen import canvas
-from reportlab.lib.pagesizes import letter
-from io import BytesIO
-import re
-
+from transformers import AutoTokenizer, AutoModelForCausalLM
+from huggingface_hub import login
 
 def load_env():
     with open('.env') as f:
@@ -22,96 +14,38 @@ def load_env():
 # Call this function to load the variables
 load_env()
 
+# Now you can use the environment variables
 HUGGINGFACE_API_KEY = os.getenv('HUGGINGFACE_API_KEY')
 
+# Log in using your Hugging Face token
+login(token=HUGGINGFACE_API_KEY)
 
-# Function to extract text from a PDF resume
-def extract_text_from_pdf(pdf_path):
-    with pdfplumber.open(pdf_path) as pdf:
-        text = ''
-        for page in pdf.pages:
-            text += page.extract_text()
-    return text
+# Load the model and tokenizer after logging in
+tokenizer = AutoTokenizer.from_pretrained("meta-llama/Llama-3.2-1B")
 
+# Check if the tokenizer has a pad token. If not, assign the eos_token_id as pad_token.
+if tokenizer.pad_token is None:
+    tokenizer.add_special_tokens({'pad_token': '[PAD]'})  # Add new pad token if none exists
 
-# Function to optimize resume text using Huggingface LLaMA
-def optimize_resume(resume_text, keywords):
-    # Initialize the Huggingface pipeline for text generation (LLaMA or GPT-style model)
-    generator = pipeline("text-generation", model="huggingface/llama", api_key=HUGGINGFACE_API_KEY)
+# Load the model
+model = AutoModelForCausalLM.from_pretrained("meta-llama/Llama-3.2-1B")
 
-    # Prompt that asks the model to refactor the resume text based on company keywords
-    prompt = (f"Here is the resume:\n{resume_text}\n\n"
-              f"Please refactor this resume to optimize it for the following keywords: {', '.join(keywords)}. "
-              "Make sure the refactored resume fits the company's job requirements and industry standards.")
+# Example query
+query = "What is the capital of France?"
 
-    # Use the model to generate optimized resume
-    refactored_resume = generator(prompt, max_length=1000, num_return_sequences=1)[0]['generated_text']
+# Tokenize the input and set attention_mask, with padding
+inputs = tokenizer(query, return_tensors="pt", padding=True)
 
-    return refactored_resume
+# Generate output from the model, using attention mask and pad token
+output = model.generate(
+    inputs["input_ids"],
+    attention_mask=inputs["attention_mask"],  # Explicitly pass attention mask
+    max_length=50,
+    pad_token_id=tokenizer.pad_token_id  # Use the pad token ID explicitly
+)
 
+# Decode the output into text
+output_text = tokenizer.decode(output[0], skip_special_tokens=True)
 
-# Function to write updated text back into the PDF, keeping formatting intact
-def update_pdf_with_text(input_pdf_path, output_pdf_path, updated_text):
-    # Create a PDF writer and reader
-    pdf_reader = PdfReader(input_pdf_path)
-    pdf_writer = PdfWriter()
-
-    # Create a buffer to hold the canvas
-    packet = BytesIO()
-    can = canvas.Canvas(packet, pagesize=letter)
-
-    # Add the updated text to the canvas
-    lines = updated_text.split("\n")
-    y = 750  # Y-coordinate for text placement
-    for line in lines:
-        can.drawString(100, y, line)
-        y -= 15  # Adjust line height as per requirement
-
-    can.save()
-
-    # Move the buffer to the beginning
-    packet.seek(0)
-
-    # Add the original pages to the writer and overlay the updated text
-    for page_num in range(len(pdf_reader.pages)):
-        page = pdf_reader.pages[page_num]
-        if page_num == 0:  # Only overlay text on the first page as an example
-            page.merge_page(PdfReader(packet).pages[0])
-        pdf_writer.add_page(page)
-
-    # Write the updated PDF to the output path
-    with open(output_pdf_path, 'wb') as output_pdf:
-        pdf_writer.write(output_pdf)
-
-
-# Function to get company keywords from a file (like keywords.txt)
-def fetch_company_keywords(file_path):
-    with open(file_path, 'r') as f:
-        keywords = [line.strip() for line in f.readlines()]
-    return keywords
-
-
-# Main function to handle the entire process
-def main():
-    # Example paths to the user's resume and company keywords
-    resume_pdf_path = 'input-data/jakes-resume.pdf'  # Path to the uploaded resume
-    keywords_file_path = 'output-data/keywords.txt'  # Path to the company's keywords
-
-    # Extract resume text from the PDF
-    resume_text = extract_text_from_pdf(resume_pdf_path)
-
-    # Fetch company-specific keywords
-    company_keywords = fetch_company_keywords(keywords_file_path)
-
-    # Optimize the resume based on company keywords
-    refactored_resume = optimize_resume(resume_text, company_keywords)
-
-    # Output the optimized resume to a new PDF
-    updated_pdf_path = 'optimized_resume.pdf'
-    update_pdf_with_text(resume_pdf_path, updated_pdf_path, refactored_resume)
-
-    print(f"\nOptimized resume saved to {updated_pdf_path}")
-
-
-if __name__ == '__main__':
-    main()
+# Print the result
+print(output_text)

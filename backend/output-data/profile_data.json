@@ -1,7 +1,7 @@
 {
     "public_identifier": "vladimir-gutierrez",
-    "profile_pic_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/person/vladimir-gutierrez/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240928%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240928T200105Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=c9abd5ed32c66de6f7f6e98fa746cc08689987d010cb20c93132ceb51e35acbd",
-    "background_cover_image_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/person/vladimir-gutierrez/cover?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240928%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240928T200105Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=44fe00b6295a0ae71f59adc90023552e3ae7b025b096b12ee270819553c2c8b3",
+    "profile_pic_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/person/vladimir-gutierrez/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240928%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240928T223358Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=a6ed1aea461c167b6650d239dd8eca9fc15a3e4364079a1964798d5782ab4fa9",
+    "background_cover_image_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/person/vladimir-gutierrez/cover?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240928%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240928T223358Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=cd8cb425955470585ffb82e436e30b625bb2cb641cf8409a2dc01435ace713b2",
     "first_name": "Vladimir",
     "last_name": "G.",
     "full_name": "Vladimir G.",
@@ -27,7 +27,7 @@
             "title": "System Engineer Intern",
             "description": "Client Modernization Engineering Team",
             "location": "Wakefield, Massachusetts, United States",
-            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/vestmark/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240928%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240928T200109Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=b977a7e3eb2adba362b62d2482ab2d97eb9f819bbafbd7e8227b0cdf8f1e0d26"
+            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/vestmark/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240928%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240928T223358Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=999494df3ad34647a20a7287efcbdc1fc6f178faa58654dadbb2bb801d0ac3c4"
         },
         {
             "starts_at": {
@@ -46,7 +46,7 @@
             "title": "Software Engineer Intern",
             "description": "Global Cloud Security Team",
             "location": "Newark, New Jersey, United States",
-            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/prudential-financial/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240928%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240928T200109Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=e48a26cafbc55e4b7cd300972a2622f4a40b565af73c3f2a35e67d8d99461f94"
+            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/prudential-financial/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240928%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240928T223358Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=1fc446e928b9ca4d6d431765bf53b54e4b69c80d352cb1c8564b10b7dd7be79e"
         },
         {
             "starts_at": {
@@ -65,7 +65,7 @@
             "title": "Web Development & Integration Intern",
             "description": "Labor Systems Team",
             "location": "Orlando, Florida, United States",
-            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/the-walt-disney-company/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240928%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240928T200109Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=7bacaf9e5899c2aaede5fa120950bda11210e111c2cc611a277e347caf6b8d16"
+            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/the-walt-disney-company/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240928%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240928T223358Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=c614fb75f5ca30ead0bdac1e3d1a321a9a2708dacbaaad175747e43e011b35b8"
         },
         {
             "starts_at": {
@@ -84,7 +84,7 @@
             "title": "Software Engineer Co-op",
             "description": "Global Cloud Security Team",
             "location": "Newark, New Jersey, United States",
-            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/prudential-financial/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240928%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240928T200109Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=e48a26cafbc55e4b7cd300972a2622f4a40b565af73c3f2a35e67d8d99461f94"
+            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/prudential-financial/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240928%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240928T223358Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=1fc446e928b9ca4d6d431765bf53b54e4b69c80d352cb1c8564b10b7dd7be79e"
         },
         {
             "starts_at": {
@@ -103,7 +103,7 @@
             "title": "Technology Consultant Co-op",
             "description": "AWS Cloud & Digital Practice",
             "location": "New York, New York, United States",
-            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/pwc/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240928%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240928T200109Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=91127b3d9c48e382306ec43edf289bfea59ef92676d84a77e6484d1d5b616aed"
+            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/pwc/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240928%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240928T223358Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=add81315607856e6fcfe7cde58bb6f62c07728e4a2512ecf2abebce9e1b6ffb3"
         },
         {
             "starts_at": {
@@ -122,7 +122,7 @@
             "title": "Full Stack Engineer Intern",
             "description": "Customer Protection Team",
             "location": "Smithfield, Rhode Island, United States",
-            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/fidelity-investments/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240928%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240928T200109Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=ab88f890e1fc86a8b0a9b4b0ca04ff9bf1d72348ff9f71b9fe25833fa22f9715"
+            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/fidelity-investments/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240928%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240928T223358Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=6cc48f5351975d69a79fb355668ab639fec990e124d450abea4dd76f2acc134c"
         },
         {
             "starts_at": {
@@ -141,7 +141,7 @@
             "title": "MLT Career Prep Fellow ",
             "description": null,
             "location": null,
-            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/management-leadership-for-tomorrow/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240928%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240928T200109Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=d50e8b0036e530ad407aa8ff651c8a67b66d49f7eae05c69540b9361deb83393"
+            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/management-leadership-for-tomorrow/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240928%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240928T223358Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=28bb05cb92a76582d1c0a85d439873877bc2b38bd497254d49123ba6f2c05c9a"
         },
         {
             "starts_at": {
@@ -160,7 +160,7 @@
             "title": "Data Governance Analyst Co-op",
             "description": "Data Governance Team",
             "location": "Branchville, New Jersey, United States",
-            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/selective-insurance/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240928%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240928T200109Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=7bf8796fd682da617d509f98476f96f292acd7f460050fd26ee01af1d2012131"
+            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/selective-insurance/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240928%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240928T223358Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=dea7a21cf55bab8b9fd5cb463a4e81da772e50ed876d416d03043cce083bcd76"
         },
         {
             "starts_at": {
@@ -179,7 +179,7 @@
             "title": "ColorStack Sprout Fellowship",
             "description": null,
             "location": null,
-            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/colorstack/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240928%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240928T200109Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=857ae3dd4abeb637849d8a9881c7befca4c637a51f883d712f6f34dca44680aa"
+            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/colorstack/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240928%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240928T223358Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=8e56c202cfdbdf80bb770cecbdf61a66de981afa67aa292e7d5173d9b7a80e87"
         }
     ],
     "education": [
@@ -192,7 +192,7 @@
             "school_linkedin_profile_url": "https://www.linkedin.com/company/165198/",
             "school_facebook_profile_url": null,
             "description": null,
-            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/njit/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240928%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240928T200111Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=7707096ee04efe5819957646f30dd35b63c93213cce3ddea77cfb1008bdb0b13",
+            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/njit/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20240928%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20240928T223359Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=1cbfebdc94bef09f7da7834ae12cd9fe66e6e3a79e9d6c70ff0aa34ca2908894",
             "grade": null,
             "activities_and_societies": null
         },
