@@ -93,3 +93,15 @@
     text-wrap: balance;
   }
 }
+
+.left-neg4 {
+  left: -4%;
+}
+
+.top-15 {
+  top: 15%;
+}
+
+.pt-7r {
+  padding-top: 7rem;
+}

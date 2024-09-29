@@ -1,0 +1,112 @@
+{
+    "user": {
+      "profilePhoto": "https://randomuser.me/api/portraits/men/32.jpg",
+      "name": "Dylan Ton-That",
+      "email": "dkt5@njit.edu",
+      "aboutMe": "I am a passionate computer science student with a keen interest in software development and artificial intelligence. I love coding, solving problems, and learning new technologies.",
+      "education": {
+        "degree": "Bachelor of Science in Computer Science",
+        "institution": "New Jersey Institute of Technology",
+        "yearOfGraduation": "2025"
+      },
+      "skills": ["Java", "JavaScript", "Python", "React", "Node.js", "Machine Learning"],
+      "experiences": [
+        {
+          "positionTitle": "Software Engineer Intern",
+          "company": "Tech Solutions Inc.",
+          "logo": "https://via.placeholder.com/50",
+          "positionType": "Internship",
+          "startDate": "June 2023",
+          "endDate": "August 2023",
+          "remote": true,
+          "location": "Remote",
+          "bulletPoints": [
+            "Developed web applications using React and Node.js.",
+            "Collaborated with a team of engineers to design and implement new features.",
+            "Participated in daily stand-ups and sprint planning sessions."
+          ]
+        },
+        {
+          "positionTitle": "Software Development Intern",
+          "company": "Innovative Tech LLC",
+          "logo": "https://via.placeholder.com/50",
+          "positionType": "Internship",
+          "startDate": "January 2023",
+          "endDate": "May 2023",
+          "remote": false,
+          "location": "Newark, NJ",
+          "bulletPoints": [
+            "Assisted in the development of backend APIs using Python and Flask.",
+            "Wrote unit tests and conducted code reviews.",
+            "Engaged in team meetings to discuss project progress."
+          ]
+        }
+      ]
+    },
+    "dashboard": {
+      "companies": [
+        {
+          "photo": "https://via.placeholder.com/100",
+          "name": "Tech Solutions Inc.",
+          "averageRating": 4.5,
+          "sector": "Technology",
+          "blurb": "Tech Solutions Inc. specializes in innovative software development.",
+          "studentsWorked": {
+            "total": 50,
+            "lastYear": 15
+          },
+          "students": [
+            {
+              "photo": "https://randomuser.me/api/portraits/men/11.jpg",
+              "fullName": "Alice Smith",
+              "major": "Computer Science",
+              "school": "NJIT",
+              "starRating": 4,
+              "review": "Great experience! I learned a lot about software engineering practices."
+            },
+            {
+              "photo": "https://randomuser.me/api/portraits/women/22.jpg",
+              "fullName": "Bob Johnson",
+              "major": "Information Technology",
+              "school": "NJIT",
+              "starRating": 5,
+              "review": "The team was very supportive and I enjoyed my projects."
+            },
+            {
+              "photo": "https://randomuser.me/api/portraits/men/33.jpg",
+              "fullName": "Charlie Brown",
+              "major": "Mathematics",
+              "school": "NJIT",
+              "starRating": 3,
+              "review": "It was a good experience but I felt I needed more guidance."
+            },
+            {
+              "photo": "https://randomuser.me/api/portraits/women/44.jpg",
+              "fullName": "Diana Prince",
+              "major": "Computer Science",
+              "school": "NJIT",
+              "starRating": 4,
+              "review": "I gained hands-on experience with real-world projects."
+            },
+            {
+              "photo": "https://randomuser.me/api/portraits/men/55.jpg",
+              "fullName": "Edward Elric",
+              "major": "Information Technology",
+              "school": "NJIT",
+              "starRating": 5,
+              "review": "A fantastic learning opportunity in a great environment."
+            },
+            {
+              "photo": "https://randomuser.me/api/portraits/women/66.jpg",
+              "fullName": "Fiona Apple",
+              "major": "Mathematics",
+              "school": "NJIT",
+              "starRating": 4,
+              "review": "Learned so much about software development cycles."
+            }
+          ]
+        }
+      ]
+    }
+  }
+  

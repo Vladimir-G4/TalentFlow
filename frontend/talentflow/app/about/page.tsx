@@ -1,21 +1,8 @@
 'use client';
-import React, { useEffect } from 'react';
-import { useAuth0 } from '@auth0/auth0-react'; // Import the Auth0 hook
-import { useRouter } from 'next/navigation'; // Import the Next.js router
+import React from 'react';
 import bgImage from './images/bg.png';
-import TalentFlowBG from './images/talentflowbg.png';
-import LoginButton from './components/login';
 
-const Home = () => {
-  const { isAuthenticated } = useAuth0(); // Destructure necessary properties
-  const router = useRouter(); // Initialize the router
-
-  useEffect(() => {
-    if (isAuthenticated) {
-      router.push('/dashboard'); // Navigate to the dashboard if authenticated
-    }
-  }, [isAuthenticated, router]);
-
+const AboutUs = () => {
   return (
     <div
       className="min-h-screen flex flex-col relative overflow-hidden"
@@ -25,7 +12,7 @@ const Home = () => {
         backgroundPosition: 'center',
       }}
     >
-      {/* Top Left Half Circle SVG - Rotated 90 degrees */}
+      {/* Top Left Half Circle SVG */}
       <div className="absolute top-15 left-neg4 transform rotate-90">
         <svg
           width="200"
@@ -56,7 +43,7 @@ const Home = () => {
         </svg>
       </div>
 
-      {/* Bottom Right Half Circle SVG with New Gradient */}
+      {/* Bottom Right Half Circle SVG */}
       <div className="absolute bottom-12 right-14 transform translate-y-1/2">
         <svg
           width="200"
@@ -87,36 +74,28 @@ const Home = () => {
         </svg>
       </div>
 
-      <div className="p-10 z-10">
-        <h3 className="text-4xl font-bold text-white">TalentFlow</h3>
-        <h6 className="text-lg text-white">Connecting Talents with Opportunities</h6>
+      <div className="p-10 z-10 text-center">
+        <h3 className="text-4xl font-bold text-white">About TalentFlow</h3>
+        <h6 className="text-lg text-white mt-2">
+          Connecting Talents with Opportunities
+        </h6>
       </div>
 
       <div className="flex-grow flex items-center justify-center z-10">
-        <div className="relative bg-white bg-opacity-40 rounded-lg shadow-lg p-10 pt-7r max-w-md w-full text-center">
-          <img
-            src={TalentFlowBG.src}
-            alt="Profile"
-            className="w-40 h-40 rounded-full absolute -top-20 left-1/2 transform -translate-x-1/2"
-          />
-          <h3
-            className="text-xl font-semibold text-purple-800 mb-5"
-            style={{
-              fontFamily: 'var(--font-poppins-medium)',
-            }}
-          >
-            Welcome Back to TalentFlow!
-          </h3>
-          <h4 className="text-lg text-purple-600 mb-5">
-            We're thrilled to have you here. Let's explore your opportunities!
-          </h4>
-          <div className="flex flex-col space-y-4 mt-4">
-            <LoginButton />
-          </div>
+        <div className="relative bg-white bg-opacity-40 rounded-lg shadow-lg p-10 pt-7r max-w-3xl w-full text-center">
+          <p className="text-lg text-purple-800 mb-5">
+            At TalentFlow, our mission is to bridge the gap between students and opportunities in the job market. We aim to empower students with the insights they need to make informed career decisions and connect them with organizations that align with their goals and aspirations.
+          </p>
+          <p className="text-lg text-purple-800 mb-5">
+            Our platform leverages data from previous interns and employees to provide personalized recommendations, reviews, and valuable resources that simplify the job search process. Whether you are just starting your career or looking for new challenges, TalentFlow is here to help you navigate your journey.
+          </p>
+          <p className="text-lg text-purple-800 mb-5">
+            Join us in shaping the future of talent acquisition and career development. Together, we can create pathways to success for students everywhere!
+          </p>
         </div>
       </div>
     </div>
   );
 };
 
-export default Home;
+export default AboutUs;
