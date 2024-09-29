@@ -4,10 +4,39 @@ import { Auth0Provider, useAuth0 } from '@auth0/auth0-react';
 import mockData from '../mock_data.json';
 import bgImage from '../images/bg.png';
 import { FaUpload } from 'react-icons/fa';
+import { useSpring, animated } from 'react-spring';
+import Link from 'next/link';
 
 const Profile = () => {
   const { user, isAuthenticated } = useAuth0();
   const [profileData, setProfileData] = useState(mockData.user);
+  const [resume, setResume] = useState<File | null>(null);
+  const [aiSuggestions, setAiSuggestions] = useState<string[]>([]);
+
+  const handleResumeUpload = (event: React.ChangeEvent<HTMLInputElement>) => {
+    const file = event.target.files?.[0];
+    if (file && file.type === 'application/pdf') {
+      setResume(file);
+      simulateAiSuggestions(file);
+    } else {
+      alert('Please upload a valid PDF file.');
+    }
+  };
+
+  const simulateAiSuggestions = (file: File) => {
+    // Simulate AI suggestions based on the uploaded resume
+    const suggestions = [
+      'Incorporate technical keywords such as "JavaScript," "React," and "SQL" to pass ATS scans.',
+      'Highlight any specific programming languages or frameworks you’re proficient in.',
+      'Emphasize any relevant projects or contributions on platforms like GitHub.',
+      'Showcase your experience with cloud technologies like AWS, Azure, or Google Cloud.',
+      'Mention any certifications in technologies like AWS Certified Developer or Google Cloud Professional.',
+    ];
+    
+    setAiSuggestions(suggestions);
+  };
+
+  const animatedProps = useSpring({ opacity: aiSuggestions.length > 0 ? 1 : 0, transform: aiSuggestions.length > 0 ? 'translateY(0)' : 'translateY(-20px)' });
 
   return (
     <Auth0Provider
@@ -48,9 +77,16 @@ const Profile = () => {
               ))}
             </ul>
             <div className="mt-4 flex justify-center">
-              <button className="flex items-center justify-center bg-blue-600 text-white py-2 px-4 rounded hover:bg-blue-700 transition">
+              <input
+                type="file"
+                accept="application/pdf"
+                onChange={handleResumeUpload}
+                className="hidden"
+                id="resume-upload"
+              />
+              <label htmlFor="resume-upload" className="flex items-center justify-center bg-blue-600 text-white py-2 px-4 rounded hover:bg-blue-700 transition cursor-pointer">
                 <FaUpload className="mr-2" /> Upload Resume
-              </button>
+              </label>
             </div>
           </div>
 
@@ -69,15 +105,33 @@ const Profile = () => {
                 </ul>
               </div>
             ))}
+
+            {/* AI Suggestions Section */}
+            {aiSuggestions.length > 0 && (
+              <animated.div style={animatedProps} className="mt-5 bg-white rounded-lg shadow-lg p-5 transition-transform duration-300">
+                <h4 className="text-xl font-semibold">AI Suggestions</h4>
+                <ul className="list-disc list-inside">
+                  {aiSuggestions.map((suggestion, idx) => (
+                    <li key={idx} className="text-gray-600">{suggestion}</li>
+                  ))}
+                </ul>
+              </animated.div>
+            )}
           </div>
         </div>
 
         {/* Navigation links */}
         <div className="absolute top-5 right-5">
           <nav className="flex space-x-4">
-            <a href="/dashboard" className="font-poppins text-white hover:text-blue-500 transition">Home</a>
-            <a href="/profile" className="font-poppins text-white hover:text-blue-500 transition">Profile</a>
-            <a href="/about" className="font-poppins text-white hover:text-blue-500 transition">About Us</a>
+            <Link href="/dashboard" className="font-poppins text-white hover:text-blue-500 transition">
+              Home
+            </Link>
+            <Link href="/profile" className="font-poppins text-white hover:text-blue-500 transition">
+              Profile
+            </Link>
+            <Link href="/about" className="font-poppins text-white hover:text-blue-500 transition">
+              About Us
+            </Link>
           </nav>
         </div>
       </div>

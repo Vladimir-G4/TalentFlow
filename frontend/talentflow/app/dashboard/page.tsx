@@ -4,6 +4,7 @@ import { Auth0Provider, useAuth0 } from '@auth0/auth0-react';
 import mockData from '../mock_data.json';
 import LogoutButton from '../components/logout';
 import { Marck_Script } from 'next/font/google';
+import { useRouter } from 'next/navigation'; // Import useRouter
 
 const marckScript = Marck_Script({
   weight: '400',
@@ -11,6 +12,7 @@ const marckScript = Marck_Script({
 });
 
 const Dashboard = () => {
+  const router = useRouter(); // Get router instance
   const { user, dashboard } = mockData;
 
   // State for search query and filtered companies
@@ -27,31 +29,28 @@ const Dashboard = () => {
   }, [searchQuery, dashboard.companies]);
 
   return (
-    <div className="min-h-screen flex flex-col relative overflow-hidden bg-gray-100 text-black px-6">
-      {/* Background Shapes */}
+    <div className="min-h-screen flex flex-col relative overflow-hidden bg-gray-100 text-black px-4 md:px-8">
+      {/* Background Image */}
       <div className="absolute inset-0 bg-cover bg-center">
         <div className="absolute top-10 left-20">
-          <svg width="150" height="150" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="100" cy="100" r="100" fill="url(#gradientShape1)" />
-            <defs>
-              <linearGradient id="gradientShape1" x1="0" y1="0" x2="200" y2="200" gradientUnits="userSpaceOnUse">
-                <stop stopColor="#FFD700" />
-                <stop offset="1" stopColor="#FF8C00" />
-              </linearGradient>
-            </defs>
-          </svg>
+          <img
+          
+            src="https://upload.wikimedia.org/wikipedia/commons/2/21/NJIT_Athletics_wordmark.png?20160202013905"
+            alt="NJIT Athletics"
+            className="w-48 h-auto" // Adjust size as needed
+          />
         </div>
       </div>
 
       {/* Header */}
-      <div className="pt-10 pb-6 z-10 text-black">
-        <h3 className="text-4xl font-bold">TalentFlow</h3>
-        <h6 className="text-lg">Connecting Talents with Opportunities</h6>
+      <div className="pt-12 pb-8 z-10 text-center"> {/* Centered Header */}
+        <h3 className="text-5xl font-bold">TalentFlow</h3>
+        <h6 className="text-lg mt-2">Connecting Talents with Opportunities</h6>
       </div>
 
       {/* Navigation Bar with Centered Search */}
-      <header className="flex justify-center items-center mb-6 z-10 relative">
-        <div className="w-full md:w-2/3 flex items-center justify-center space-x-4">
+      <header className="flex flex-col items-center mb-8 z-10 relative">
+        <div className="w-full md:w-2/3 flex items-center justify-center space-x-4 mb-4">
           {/* Search Bar */}
           <input
             type="text"
@@ -60,29 +59,28 @@ const Dashboard = () => {
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)} // Update search query on change
           />
-          {/* Navigation Links */}
-          <nav className="flex items-center space-x-6 ml-4">
-            <a href="/dashboard" className="text-gray-600 hover:text-purple-600">Home</a>
-            <a href="/profile" className="text-gray-600 hover:text-purple-600">Profile</a>
-            <a href="/about" className="text-gray-600 hover:text-purple-600">About Us</a>
-            {user && (
-              <Auth0Provider
-                domain="dev-hid4tkzfxe7l2y4n.us.auth0.com"
-                clientId="sclQKRrckfPQ4gl30aGDdyHFQFcwHvo2"
-                authorizationParams={{
-                  redirect_uri: window.location.origin,
-                }}
-              >
-                <LogoutButton />
-              </Auth0Provider>
-            )} {/* Display Logout button if user is authenticated */}
-          </nav>
         </div>
+        <nav className="flex items-center space-x-6">
+          <a href="/dashboard" className="text-gray-600 hover:text-purple-600">Home</a>
+          <a href="/profile" className="text-gray-600 hover:text-purple-600">Profile</a>
+          <a href="/about" className="text-gray-600 hover:text-purple-600">About Us</a>
+          {user && (
+            <Auth0Provider
+              domain="dev-hid4tkzfxe7l2y4n.us.auth0.com"
+              clientId="sclQKRrckfPQ4gl30aGDdyHFQFcwHvo2"
+              authorizationParams={{
+                redirect_uri: window.location.origin,
+              }}
+            >
+              <LogoutButton />
+            </Auth0Provider>
+          )} {/* Display Logout button if user is authenticated */}
+        </nav>
       </header>
 
       {/* Main Content */}
-      <main className="flex-grow z-10 relative">
-        <section className="mb-6">
+      <main className="flex-grow z-10 relative text-center"> {/* Centered Main Content */}
+        <section className="mb-8">
           <h2 className={`text-4xl font-poppins-medium ${marckScript}`}>
             Opportunities <br />
             <span className="text-purple-600 font-marck-script">ebb</span> and <span className="text-purple-600 font-marck-script">flow</span>, <br />
@@ -94,16 +92,17 @@ const Dashboard = () => {
         </section>
 
         {/* Companies Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mx-auto"> {/* Centered Grid */}
           {filteredCompanies
             .sort((a, b) => b.studentsWorked.total - a.studentsWorked.total)
             .map((company, index) => (
               <div
                 key={index}
-                className="bg-white rounded-lg shadow-lg p-4 hover:shadow-xl transition-shadow duration-200 cursor-pointer"
+                className="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-200 cursor-pointer"
+                onClick={() => router.push(`/amazon`)}
               >
-                <div className="flex items-start">
-                  <img src={company.photo} alt={company.name} className="w-16 h-16 rounded-full mr-4" />
+                <div className="flex items-start mb-4">
+                  <img style={{ objectFit: 'cover' }} src={company.photo} alt={company.name} className="w-16 h-16 rounded-full mr-4" />
                   <div>
                     <h3 className="font-bold text-lg">{company.name}</h3>
                     <div className="flex items-center">
