@@ -12,6 +12,11 @@ const Profile = () => {
   const [profileData, setProfileData] = useState(mockData.user);
   const [resume, setResume] = useState<File | null>(null);
   const [aiSuggestions, setAiSuggestions] = useState<string[]>([]);
+  let redirectUri;
+
+  if (typeof window !== "undefined") {
+    redirectUri = window.location.origin;
+  }
 
   const handleResumeUpload = (event: React.ChangeEvent<HTMLInputElement>) => {
     const file = event.target.files?.[0];
@@ -43,7 +48,7 @@ const Profile = () => {
       domain="dev-hid4tkzfxe7l2y4n.us.auth0.com"
       clientId="sclQKRrckfPQ4gl30aGDdyHFQFcwHvo2"
       authorizationParams={{
-        redirect_uri: window.location.origin,
+        redirect_uri: redirectUri,
       }}
     >
       <div

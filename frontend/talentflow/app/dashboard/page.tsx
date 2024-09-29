@@ -18,6 +18,11 @@ const Dashboard = () => {
   // State for search query and filtered companies
   const [searchQuery, setSearchQuery] = useState('');
   const [filteredCompanies, setFilteredCompanies] = useState(dashboard.companies);
+  let redirectUri;
+
+  if (typeof window !== "undefined") {
+    redirectUri = window.location.origin;
+  }
 
   // Update filtered companies whenever the search query changes
   useEffect(() => {
@@ -67,7 +72,7 @@ const Dashboard = () => {
               domain="dev-hid4tkzfxe7l2y4n.us.auth0.com"
               clientId="sclQKRrckfPQ4gl30aGDdyHFQFcwHvo2"
               authorizationParams={{
-                redirect_uri: window.location.origin,
+                redirect_uri: redirectUri,
               }}
             >
               <LogoutButton />

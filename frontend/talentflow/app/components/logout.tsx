@@ -3,10 +3,15 @@ import { useAuth0 } from "@auth0/auth0-react";
 
 const LogoutButton = () => {
   const { logout } = useAuth0();
+  let redirectUri: string;
+
+  if (typeof window !== "undefined") {
+    redirectUri = window.location.origin;
+  }
 
   return (
     <button
-      onClick={() => logout({ logoutParams: { returnTo: window.location.origin } })}
+      onClick={() => logout({ logoutParams: { returnTo: redirectUri } })}
       className="bg-gradient-to-r from-purple-600 to-indigo-600 text-white py-2 px-8 rounded-full shadow-lg transform transition duration-300 ease-in-out hover:scale-105 hover:shadow-xl focus:outline-none focus:ring-4 focus:ring-purple-300 focus:ring-opacity-50 text-md font-medium flex items-center space-x-2"
     >
       {/* Optional Logout Icon */}

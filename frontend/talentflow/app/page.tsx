@@ -9,6 +9,11 @@ import LoginButton from './components/login';
 const Home = () => {
   const { isAuthenticated } = useAuth0();
   const router = useRouter();
+  let redirectUri;
+
+  if (typeof window !== "undefined") {
+    redirectUri = window.location.origin;
+  }
 
   useEffect(() => {
     if (isAuthenticated) {
@@ -115,7 +120,7 @@ const Home = () => {
               domain="dev-hid4tkzfxe7l2y4n.us.auth0.com"
               clientId="sclQKRrckfPQ4gl30aGDdyHFQFcwHvo2"
               authorizationParams={{
-                redirect_uri: window.location.origin,
+                redirect_uri: redirectUri,
               }}
             >
             <LoginButton /> 
