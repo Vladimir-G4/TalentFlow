@@ -4,7 +4,7 @@ import { Auth0Provider, useAuth0 } from '@auth0/auth0-react';
 import mockData from '../mock_data.json';
 import LogoutButton from '../components/logout';
 import { Marck_Script } from 'next/font/google';
-import { useRouter } from 'next/navigation'; // Import useRouter
+import { useRouter } from 'next/navigation';
 
 const marckScript = Marck_Script({
   weight: '400',
@@ -12,7 +12,7 @@ const marckScript = Marck_Script({
 });
 
 const Dashboard = () => {
-  const router = useRouter(); // Get router instance
+  const router = useRouter();
   const { user, dashboard } = mockData;
 
   // State for search query and filtered companies
@@ -34,16 +34,15 @@ const Dashboard = () => {
       <div className="absolute inset-0 bg-cover bg-center">
         <div className="absolute top-10 left-20">
           <img
-          
             src="https://upload.wikimedia.org/wikipedia/commons/2/21/NJIT_Athletics_wordmark.png?20160202013905"
             alt="NJIT Athletics"
-            className="w-48 h-auto" // Adjust size as needed
+            className="w-48 h-auto"
           />
         </div>
       </div>
 
       {/* Header */}
-      <div className="pt-12 pb-8 z-10 text-center"> {/* Centered Header */}
+      <div className="pt-12 pb-8 z-10 text-center">
         <h3 className="text-5xl font-bold">TalentFlow</h3>
         <h6 className="text-lg mt-2">Connecting Talents with Opportunities</h6>
       </div>
@@ -51,13 +50,12 @@ const Dashboard = () => {
       {/* Navigation Bar with Centered Search */}
       <header className="flex flex-col items-center mb-8 z-10 relative">
         <div className="w-full md:w-2/3 flex items-center justify-center space-x-4 mb-4">
-          {/* Search Bar */}
           <input
             type="text"
             placeholder="Search Companies..."
             className="w-full p-3 rounded-full border border-gray-300 focus:outline-none focus:ring-2 focus:ring-purple-600 shadow-lg"
             value={searchQuery}
-            onChange={(e) => setSearchQuery(e.target.value)} // Update search query on change
+            onChange={(e) => setSearchQuery(e.target.value)}
           />
         </div>
         <nav className="flex items-center space-x-6">
@@ -74,12 +72,12 @@ const Dashboard = () => {
             >
               <LogoutButton />
             </Auth0Provider>
-          )} {/* Display Logout button if user is authenticated */}
+          )}
         </nav>
       </header>
 
       {/* Main Content */}
-      <main className="flex-grow z-10 relative text-center"> {/* Centered Main Content */}
+      <main className="flex-grow z-10 relative text-center">
         <section className="mb-8">
           <h2 className={`text-4xl font-poppins-medium ${marckScript}`}>
             Opportunities <br />
@@ -92,7 +90,7 @@ const Dashboard = () => {
         </section>
 
         {/* Companies Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mx-auto"> {/* Centered Grid */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mx-auto">
           {filteredCompanies
             .sort((a, b) => b.studentsWorked.total - a.studentsWorked.total)
             .map((company, index) => (
@@ -106,7 +104,6 @@ const Dashboard = () => {
                   <div>
                     <h3 className="font-bold text-lg">{company.name}</h3>
                     <div className="flex items-center">
-                      {/* Star rating */}
                       {[...Array(5)].map((_, starIndex) => (
                         <svg
                           key={starIndex}
@@ -129,6 +126,11 @@ const Dashboard = () => {
             ))}
         </div>
       </main>
+
+      {/* Footer */}
+      <footer className="text-black text-center py-4 pt-5">
+        <p>&copy; {new Date().getFullYear()} TalentFlow. All rights reserved.</p>
+      </footer>
     </div>
   );
 };
